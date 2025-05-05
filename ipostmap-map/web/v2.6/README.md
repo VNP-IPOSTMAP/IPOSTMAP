@@ -59,7 +59,7 @@ map = new map4d.Map(document.getElementById("map"), options)
 
 ### Map Options
 
-[MapOptions](/guides/map-options) là object cung cấp các thiết lập ban đầu để khởi tạo đối tượng IPOSTMAP
+[MapOptions](/ipostmap-map/web/v2.6/guides/map-options.md) là object cung cấp các thiết lập ban đầu để khởi tạo đối tượng IPOSTMAP
 
 ### Samples
 
