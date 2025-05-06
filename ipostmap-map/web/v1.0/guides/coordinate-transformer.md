@@ -1,6 +1,6 @@
 # Coordinate Transformer
 
-Lớp [CoordinateTransformer](/reference/coordinates?id=coordinatetransformer) dùng để lưu trữ một danh sách các vị trí tọa độ địa lý. Nó cho phép thực hiện
+Lớp [CoordinateTransformer](/ipostmap-map/web/v1.0/reference/coordinates.md?id=coordinatetransformer) dùng để lưu trữ một danh sách các vị trí tọa độ địa lý. Nó cho phép thực hiện
 các phép biến đổi danh sách các vị trí tọa độ địa lý đó như: Xoay, Dịch chuyển và thay đổi tỷ lệ.
 
 ## 1. Khởi tạo đối tượng CoordinateTransformer
