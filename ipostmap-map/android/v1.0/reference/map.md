@@ -49,9 +49,9 @@ Các phương thức:
 | **setOnInfoWindowClickListener**|`Map4D.OnInfoWindowClickListener`|`none`| Set một callback để bắt sự kiện khi touch lên Info Window               |
 | **getSelectedPlace**    | `none`           | String       | Get id của POI được chọn (selected)                                                    |
 | **setInfoWindowAdapter**|`Map4D.InfoWindowAdapter`|`none` | Set info window adapter cho Map                                                        |
-| **setPOIsEnabled**      | boolean          | `none`       | Set tất cả các POI của Map4D hiện hay ẩn                                               |
+| **setPOIsEnabled**      | boolean          | `none`       | Set tất cả các POI của IPOSTMAP hiện hay ẩn                                               |
 | **isPOIsEnabled**       | `none`           | boolean      | Kiểm tra POI của Map4D có hiện hay không                                               |
-| **setBuildingsEnabled** | boolean          | `none`       | Set tất cả các Building của Map4D hiện hay ẩn                                          |
+| **setBuildingsEnabled** | boolean          | `none`       | Set tất cả các Building của IPOSTMAP hiện hay ẩn                                          |
 | **isBuildingsEnabled**  | `none`           | boolean      | Kiểm tra Building của Map4D có được hiện hay không                                     |
 | **setSelectedBuildings**| List< String >   | `none`       | Set các Building sẽ được hightlight theo danh sách id truyền vào                       |
 | **setWaterEffectEnabled**| boolean         | `none`       | Bật hoặc tắt hiệu ứng nước 3D của Map                                                  |
@@ -163,7 +163,7 @@ Các phương thức:
 
 #### Tạo mapdId
 
-Một `mapID` là một định danh duy nhất đại diện cho một instance duy nhất của Map4D. Bạn có thể tạo `mapID` và liên kết với map style thông qua
+Một `mapID` là một định danh duy nhất đại diện cho một instance duy nhất của IPOSTMAP. Bạn có thể tạo `mapID` và liên kết với map style thông qua
 [trang quản lý của IPOSTMAP](https://map.ipostmap.vn/manager/mapstyle)
 
 #### Thêm mapId vào ứng dụng
