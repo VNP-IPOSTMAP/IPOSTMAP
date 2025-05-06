@@ -8,10 +8,10 @@
 
 | Name           | Parameters                              | Return Value | Description                                                                            |
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
-| **getFeatures**| `none`      | LongSparseArray< [MFGeoJsonFeature](/reference/geojson-layer?id=mfgeojsonfeature) >        | Get danh sách tất cả các Feature của GeoJson layer                                     |
-| **getFeature** | `none` |[MFGeoJsonFeature](/reference/geojson-layer?id=mfgeojsonfeature)      | Get Feature với tham số là `id` của Feature trong GeoJson layer                        |
-|**getPointStyle**|`none`|[MFGeoJsonPointStyle](/reference/geojson-layer?id=mfgeojsonpointstyle-class)| Get đối tượng style của dữ liệu Point trong GeoJson layer  |
-|**setPointStyle**|[MFGeoJsonPointStyle](/reference/geojson-layer?id=mfgeojsonpointstyle-class)|`none`| Set style cho dữ liệu Point của GeoJson layer              |
+| **getFeatures**| `none`      | LongSparseArray< [MFGeoJsonFeature](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonfeature) >        | Get danh sách tất cả các Feature của GeoJson layer                                     |
+| **getFeature** | `none` |[MFGeoJsonFeature](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonfeature)      | Get Feature với tham số là `id` của Feature trong GeoJson layer                        |
+|**getPointStyle**|`none`|[MFGeoJsonPointStyle](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonpointstyle-class)| Get đối tượng style của dữ liệu Point trong GeoJson layer  |
+|**setPointStyle**|[MFGeoJsonPointStyle](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonpointstyle-class)|`none`| Set style cho dữ liệu Point của GeoJson layer              |
 | **getId**      | `none`                                  | long         | Get `id` của GeoJson layer                                                             |
 | **remove**     | `none`                                  | `none`       | Remove GeoJson layer ra khỏi Map                                                       |
 
@@ -44,7 +44,7 @@ var options = MFGeoJsonOptions()
 | Name                         | Type                | Description                                                                                                                                                           |
 |------------------------------|:-------------------:|----------------------------------------------------------------------------------------------------------------------|
 | **geoJson**                  | JSONObject          | chỉ định một đối tượng `JSONObject` để xác định dữ liệu cho GeoJson layer.                                           |
-| **pointStyle**               | [MFGeoJsonPointStyle](/reference/geojson-layer?id=mfgeojsonpointstyle-class) | chỉ định style cho kiểu dữ liệu Point của GeoJson layer.                                                         |
+| **pointStyle**               | [MFGeoJsonPointStyle](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonpointstyle-class) | chỉ định style cho kiểu dữ liệu Point của GeoJson layer.                                                         |
 
 ## MFGeoJsonPointStyle Class
 
@@ -76,8 +76,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name           | Parameters                              | Return Value | Description                                                                            |
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
-| **getIcon**    |`none`|[MFBitmapDescriptor](/reference/marker?id=mfbitmapdescriptor)| Get icon của point style                                                   |
-| **setIcon**    |[MFBitmapDescriptor](/reference/marker?id=mfbitmapdescriptor)|`none`| Set icon cho point style                                                   |
+| **getIcon**    |`none`|[MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=mfbitmapdescriptor)| Get icon của point style                                                   |
+| **setIcon**    |[MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=mfbitmapdescriptor)|`none`| Set icon cho point style                                                   |
 
 ## MFGeoJsonFeature
 
@@ -94,8 +94,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 | **getProperty**     | String            | String           | Get giá trị property tương ứng với tham số key                                         |
 | **hasProperty**     | String            | boolean          | Kiểm tra feature có thuộc tính tương ứng với key truyền vào hay không                  |
 | **hasProperties**   | `none`            | boolean          | Kiểm tra feature có bất kì property nào không                                          |
-| **getGeometry**     |`none`|[MFGeometry](/reference/geojson-layer?id=mfgeometry)| Get đối tượng Geometry của feature                                |
-| **setGeometry**     |[MFGeometry](/reference/geojson-layer?id=mfgeometry)|`none`| Set Geometry cho feature                                          |
+| **getGeometry**     |`none`|[MFGeometry](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometry)| Get đối tượng Geometry của feature                                |
+| **setGeometry**     |[MFGeometry](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometry)|`none`| Set Geometry cho feature                                          |
 | **hasGeometry**     | `none`            | boolean          | Kiểm tra feature có Geometry hay không                                                 |
 | **setProperty**     | String, String    | String           | Set property cho feature. Trả về giá trị property được thêm vào                        |
 | **removeProperty**  | String            | String           | Remove property tương ứng với key truyền vào. Trả về thuộc tính được remove            |
@@ -122,8 +122,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getGeometryObject** | `none`          |[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) | Get tọa độ của Point              |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getGeometryObject** | `none`          |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) | Get tọa độ của Point              |
 
 ## MFGeoJsonMultiPoint
 
@@ -133,8 +133,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getPoints**       | `none`            | List< [MFGeoJsonPoint](/reference/geojson-layer?id=mfgeojsonpoint) > | Get danh sách MFGeoJsonPoint       |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getPoints**       | `none`            | List< [MFGeoJsonPoint](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonpoint) > | Get danh sách MFGeoJsonPoint       |
 
 ## MFGeoJsonLineString
 
@@ -144,8 +144,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getGeometryObject** | `none`          | List< [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) > | Get danh sách các tọa độ của LineString |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getGeometryObject** | `none`          | List< [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) > | Get danh sách các tọa độ của LineString |
 
 ## MFGeoJsonMultiLineString
 
@@ -155,8 +155,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getLineStrings**  | `none`            |List< [MFGeoJsonLineString](/reference/geojson-layer?id=mfgeojsonlinestring) >| Get danh sách MFGeoJsonLineString |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getLineStrings**  | `none`            |List< [MFGeoJsonLineString](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonlinestring) >| Get danh sách MFGeoJsonLineString |
 
 ## MFGeoJsonPolygon
 
@@ -166,10 +166,10 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getGeometryObject** | `none`          | List< List< [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) >> | Get list của list các tọa độ tạo nên Polygon |
-| **getOuterBoundaryCoordinates** |`none` | List< [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) > | Get list tọa độ đường biên ngoài cùng của Polygon |
-| **getInnerBoundaryCoordinates** |`none` | List< List< [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) >> | Get list tọa độ của các hole trong Polygon |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getGeometryObject** | `none`          | List< List< [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) >> | Get list của list các tọa độ tạo nên Polygon |
+| **getOuterBoundaryCoordinates** |`none` | List< [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) > | Get list tọa độ đường biên ngoài cùng của Polygon |
+| **getInnerBoundaryCoordinates** |`none` | List< List< [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) >> | Get list tọa độ của các hole trong Polygon |
 
 ## MFGeoJsonMultiPolygon
 
@@ -179,8 +179,8 @@ var pointStyle = MFGeoJsonPointStyle(icon)
 
 | Name                | Parameters        | Return Value     | Description                                                                            |
 |---------------------|-------------------|------------------|----------------------------------------------------------------------------------------|
-| **getGeometryType** | `none`            |[MFGeometryType](/reference/geojson-layer?id=mfgeometrytype) | Get loại Geometry                           |
-| **getPolygons**     | `none`    | List< [MFGeoJsonPolygon](/reference/geojson-layer?id=mfgeojsonpolygon) > | Get danh sách các MFGeoJsonPolygon     |
+| **getGeometryType** | `none`            |[MFGeometryType](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeometrytype) | Get loại Geometry                           |
+| **getPolygons**     | `none`    | List< [MFGeoJsonPolygon](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonpolygon) > | Get danh sách các MFGeoJsonPolygon     |
 
 ## MFGeometryType
 
