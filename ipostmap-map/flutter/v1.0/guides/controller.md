@@ -1,6 +1,6 @@
 # Map4D Controller
 
-> **Map4dMap Flutter** cung cấp `MFMapViewController`, là bộ điều khiển [MFMapView](./guides/mapview.md) instance.  
+> **Map4dMap Flutter** cung cấp `MFMapViewController`, là bộ điều khiển [MFMapView](/ipostmap-map/flutter/v1.0/guides/mapview.md) instance.  
 > Giá trị `MFMapViewController` được trả về thông qua hàm callback `MFMapView.onMapCreated`.
 
 ## Methods
@@ -15,7 +15,7 @@
 | 6 | fitBounds | Future\<void\> | [MFLatLngBounds](//pub.dev/documentation/map4d_map/latest/map4d_map/MFLatLngBounds-class.html) `bounds`<br>{ double `padding` } | Di chuyển camera đến ví trí thích hợp với `bounds` (và `padding`). |
 | 7 | getBounds | [Future\<MFLatLngBounds\>](//pub.dev/documentation/map4d_map/latest/map4d_map/MFLatLngBounds-class.html) |  | Lấy vùng hiển thị hiện tại của bản đồ. |
 |~8~|~enable3DMode~ *(deprecated)*| Future\<void\> | bool `isEnable` | Set chế độ 2D, 3D cho bản đồ, `true` thì sẽ hiển thị bản đồ ở chế độ 3D. |
-| 9 | clearTileCache | Future\<void\> | [MFTileOverlayId](//pub.dev/documentation/map4d_map/latest/map4d_map/MFTileOverlayId-class.html) `tileOverlayId` | Xóa cache của [tile overlay](./guides/tile-overlay.md). |
+| 9 | clearTileCache | Future\<void\> | [MFTileOverlayId](//pub.dev/documentation/map4d_map/latest/map4d_map/MFTileOverlayId-class.html) `tileOverlayId` | Xóa cache của [tile overlay](/ipostmap-map/flutter/v1.0/guides/image-overlay.md). |
 | 10| getMetersForLogicalPixels | Future\<double\> | double | Convert Logical Pixels sang mét |
 | 11| getLogicalPixelsForMeters | Future\<double\> | double | Convert mét sang Logical Pixels |
 
