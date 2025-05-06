@@ -1,7 +1,7 @@
 # Map4D Widget
 
 > **IPOSTMAP Flutter** cung cấp `MFMapView` [widget](https://flutter.dev/docs/development/ui/widgets-intro) để hiển thị Map4d.  
-> Để điều khiển Map4d widget, có thể sử dụng [MFMapViewController](./guides/controller.md) được truyền cho `MFMapView` khi hàm `onMapCreated` được gọi lại.
+> Để điều khiển Map4d widget, có thể sử dụng [MFMapViewController](/ipostmap-map/flutter/v1.0/guides/controller.md) được truyền cho `MFMapView` khi hàm `onMapCreated` được gọi lại.
 
 ## Simple Usage
 
