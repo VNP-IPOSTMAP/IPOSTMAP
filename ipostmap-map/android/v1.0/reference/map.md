@@ -7,23 +7,23 @@ Các phương thức:
 | Name                    | Parameters       | Return Value | Description                                                                            |
 |-------------------------|------------------|--------------|----------------------------------------------------------------------------------------|
 | **getMyLocation**       | boolean          | `none`       | Lấy vị trí hiện tại của My Location marker                                             |
-| **getCameraPosition**   |`none`|[MFCameraPosition](/reference/map?id=mfcameraposition)| Get thông số Camera Postion của Map                        |
-| **getBounds**           |`none`|[MFCoordinateBounds](/reference/coordinates?id=mfcoordinatebounds)| Get vùng bounds của Map với các thông số Camera và màn hình hiện tại. |
-| **getCameraPositionForBounds**|[MFCoordinateBounds](/reference/coordinates?id=mfcoordinatebounds), int|[MFCameraPosition](/reference/map?id=mfcameraposition)| Tạo một Camera Position từ tham số bounds và padding|
-| **getCameraPositionForBounds**|[MFCoordinateBounds](/reference/coordinates?id=mfcoordinatebounds), int, int, int, int|[MFCameraPosition](/reference/map?id=mfcameraposition)| Tạo một Camera Position từ tham số bounds và padding|
-| **getProjection**       | `none`|[MFProjection](/guides/projection?id=projection)| Get thuộc tính MFProjection của Map                             |
-| **getUiSettings**       | `none`|[MFUiSettings](/reference/map?id=mfuisettings)| Get thuộc tính cài đặt giao diện của Map                          |
-| **addMarker**           |[MFMarkerOptions](/reference/marker?id=marker-options)|[MFMarker](/reference/marker?id=mfmarker-class)| Add một marker vào Map|
-| **addPolyline**         |[MFPolylineOptions](/reference/polyline?id=polyline-options)|[MFPolyline](/reference/polyline?id=polyline-class)| Add một polyline vào Map|
-| **addPolygon**          |[MFPolygonOptions](/reference/polygon?id=polygon-options)|[MFPolygon](/reference/polygon?id=polygon-class)| Add một polygon vào Map|
-| **addCircle**           |[MFCircleOptions](/reference/circle?id=circle-options)|[MFCircle](/reference/circle?id=circle-class)| Add một circle vào Map|
-| **addPOI**              |[MFPOIOptions](/reference/poi?id=poi-options)|[MFPOI](/reference/poi?id=poi-class)| Add một POI vào Map                   |
-| **addBuilding**         |[MFBuildingOptions](/reference/building?id=building-options)|[MFBuilding](/reference/building?id=building-class)| Add một Building vào Map |
-| **addTileOverlay**      |[MFTileOverlayOptions](/reference/tile-overlay?id=mftileoverlayoptions-class)|[MFTileOverlay](/reference/tile-overlay?id=mftileoverlay-class)| Add một Tile Overlay vào Map |
-| **addBuildingOverlay**  |[MFBuildingOverlayOptions](/reference/building-overlay?id=mfbuildingoverlayoptions-class)|[MFBuildingOverlay](/reference/building-overlay?id=buildingoverlay-class)| Add một Building Overlay vào Map |
-| **addPOIOverlay**       |[MFPOIOverlayOptions](/reference/poi-overlay?id=mfpoioverlayoptions-class)|[MFPOIOverlay](/reference/poi-overlay?id=poioverlay-class)| Add một POI Overlay vào Map |
-| **moveCamera**          |[MFCameraUpdate](/reference/map?id=mfcameraupdate)|`none`| Di chuyển bản đồ tới một vị trí Camera ngay lập tức            |
-| **animateCamera**       |[MFCameraUpdate](/reference/map?id=mfcameraupdate)|`none`| Di chuyển bản đồ tới một vị trí Camera với hiệu ứng fly        |
+| **getCameraPosition**   |`none`|[MFCameraPosition](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraposition)| Get thông số Camera Postion của Map                        |
+| **getBounds**           |`none`|[MFCoordinateBounds](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mfcoordinatebounds)| Get vùng bounds của Map với các thông số Camera và màn hình hiện tại. |
+| **getCameraPositionForBounds**|[MFCoordinateBounds](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mfcoordinatebounds), int|[MFCameraPosition](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraposition)| Tạo một Camera Position từ tham số bounds và padding|
+| **getCameraPositionForBounds**|[MFCoordinateBounds](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mfcoordinatebounds), int, int, int, int|[MFCameraPosition](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraposition)| Tạo một Camera Position từ tham số bounds và padding|
+| **getProjection**       | `none`|[MFProjection](/ipostmap-map/android/v1.0/guides/projection.md?id=projection)| Get thuộc tính MFProjection của Map                             |
+| **getUiSettings**       | `none`|[MFUiSettings](/ipostmap-map/android/v1.0/reference/map.md?id=mfuisettings)| Get thuộc tính cài đặt giao diện của Map                          |
+| **addMarker**           |[MFMarkerOptions](/ipostmap-map/android/v1.0/reference/marker.md?id=marker-options)|[MFMarker](/ipostmap-map/android/v1.0/reference/marker.md?id=mfmarker-class)| Add một marker vào Map|
+| **addPolyline**         |[MFPolylineOptions](/ipostmap-map/android/v1.0/reference/polyline.md?id=polyline-options)|[MFPolyline](/ipostmap-map/android/v1.0/reference/polyline.md?id=polyline-class)| Add một polyline vào Map|
+| **addPolygon**          |[MFPolygonOptions](/ipostmap-map/android/v1.0/reference/polygon.md?id=polygon-options)|[MFPolygon](/ipostmap-map/android/v1.0/reference/polygon.md?id=polygon-class)| Add một polygon vào Map|
+| **addCircle**           |[MFCircleOptions](/ipostmap-map/android/v1.0/reference/circle.md?id=circle-options)|[MFCircle](/ipostmap-map/android/v1.0/reference/circle.md?id=circle-class)| Add một circle vào Map|
+| **addPOI**              |[MFPOIOptions](/ipostmap-map/android/v1.0/reference/poi.md?id=poi-options)|[MFPOI](/ipostmap-map/android/v1.0/reference/poi.md?id=poi-class)| Add một POI vào Map                   |
+| **addBuilding**         |[MFBuildingOptions](/ipostmap-map/android/v1.0/reference/building.md?id=building-options)|[MFBuilding](/ipostmap-map/android/v1.0/reference/building.md?id=building-class)| Add một Building vào Map |
+| **addTileOverlay**      |[MFTileOverlayOptions](/ipostmap-map/android/v1.0/reference/tile-overlay.md?id=mftileoverlayoptions-class)|[MFTileOverlay](/ipostmap-map/android/v1.0/reference/tile-overlay.md?id=mftileoverlay-class)| Add một Tile Overlay vào Map |
+| **addBuildingOverlay**  |[MFBuildingOverlayOptions](/ipostmap-map/android/v1.0/reference/building-overlay.md?id=mfbuildingoverlayoptions-class)|[MFBuildingOverlay](/ipostmap-map/android/v1.0/reference/building-overlay.md?id=buildingoverlay-class)| Add một Building Overlay vào Map |
+| **addPOIOverlay**       |[MFPOIOverlayOptions](/ipostmap-map/android/v1.0/reference/poi-overlay.md?id=mfpoioverlayoptions-class)|[MFPOIOverlay](/ipostmap-map/android/v1.0/reference/poi-overlay.md?id=poioverlay-class)| Add một POI Overlay vào Map |
+| **moveCamera**          |[MFCameraUpdate](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraupdate)|`none`| Di chuyển bản đồ tới một vị trí Camera ngay lập tức            |
+| **animateCamera**       |[MFCameraUpdate](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraupdate)|`none`| Di chuyển bản đồ tới một vị trí Camera với hiệu ứng fly        |
 | **isMyLocationEnabled** | `none`           | boolean      | Kiểm tra xem My Location marker có được hiển thị hay không                             |
 | **setMyLocationEnabled**| boolean          | `none`       | Set giá trị enable cho My Location marker                                              |
 | **setTime**             | Date             | `none`       | Set giá trị thời gian cho Map                                                          |
@@ -60,8 +60,8 @@ Các phương thức:
 | **setRotateGesturesEnabled**| boolean      | `none`       | Bật hoặc tắt cử chỉ xoay Map                                                           |
 | **setTiltGesturesEnabled**| boolean        | `none`       | Bật hoặc tắt cử chỉ nghiêng Map                                                        |
 | **setAllGesturesEnabled**| boolean         | `none`       | Bật hoặc tắt tất cả các cử chỉ tác động lên Map                                        |
-| **setMapType**          |[MFMapType](/reference/map?id=mfmaptype)| `none` | Set kiểu của tile cho Map (Raster hoặc Vector)                         |
-| **getMapType**          |`none`|[MFMapType](/reference/map?id=mfmaptype)  | Trả về kiểu hiện thị của tile Map hiện tại                             |
+| **setMapType**          |[MFMapType](/ipostmap-map/android/v1.0/reference/map.md?id=mfmaptype)| `none` | Set kiểu của tile cho Map (Raster hoặc Vector)                         |
+| **getMapType**          |`none`|[MFMapType](/ipostmap-map/android/v1.0/reference/map.md?id=mfmaptype)  | Trả về kiểu hiện thị của tile Map hiện tại                             |
 | **setMapId**            | String           | `none`       | Set Map ID                                                      |
 | **getMapId**            | `none`           | String       | Trả về Map ID hiện tại                                          |
 | **clear**               | `none`           | `none`       | Xóa tất cả các Annotation ra khỏi Map                                                  |
@@ -81,22 +81,22 @@ Các phương thức:
 
 | Name        | Parameters   | Return Value | Description                                                                         |
 |-------------|--------------|--------------|-------------------------------------------------------------------------------------|
-| **target**  |[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate)|Builder| trả về một `Builder` với target được thêm vào                                    |
+| **target**  |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate)|Builder| trả về một `Builder` với target được thêm vào                                    |
 | **zoom**    | double       | Builder      | trả về một `Builder` với zoom được thêm vào                                         |
 | **tilt**    | double       | Builder      | trả về một `Builder` với tilt được thêm vào                                         |
 | **bearing** | double       | Builder      | trả về một `Builder` với bearing được thêm vào                                      |
-| **build**   | `none`       |[MFCameraPosition](/reference/map?id=mfcameraposition)| tạo một `MFCameraPosition` từ đối tượng `Builder`|
+| **build**   | `none`       |[MFCameraPosition](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraposition)| tạo một `MFCameraPosition` từ đối tượng `Builder`|
 
 ## MFCameraPosition
 
-Để tạo một đối tượng `MFCameraPosition` thì ta dùng class static [MFCameraPosition.Builder](/reference/map?id=mfcamerapositionbuilder)
+Để tạo một đối tượng `MFCameraPosition` thì ta dùng class static [MFCameraPosition.Builder](/ipostmap-map/android/v1.0/reference/map.md?id=mfcamerapositionbuilder)
 
 Các phương thức:
 
 | Name        | Parameters   | Return Value | Description                                                                         |
 |-------------|--------------|--------------|-------------------------------------------------------------------------------------|
-| `static` **fromCoordinateZoom**|[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate), double|MFCameraPosition| trả về một `MFCameraPosition` với target và mức zoom|
-| **getTarget**| `none`      | [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) | trả về target của camera                                                |
+| `static` **fromCoordinateZoom**|[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate), double|MFCameraPosition| trả về một `MFCameraPosition` với target và mức zoom|
+| **getTarget**| `none`      | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) | trả về target của camera                                                |
 | **getZoom**  | `none`      | double       | trả về mức zoom của camera                                                          |
 | **getTilt**  | `none`      | double       | trả về độ nghiêng của camera                                                        |
 | **getBearing**|`none`      |MFCameraPosition| trả về góc xoay của camera                                                        |
@@ -109,7 +109,7 @@ Các phương thức:
 
 | Name                   | Parameters   | Return Value | Description                                                                         |
 |------------------------|--------------|--------------|-------------------------------------------------------------------------------------|
-| **getCameraPosition**  |[Map4D](/reference/map?id=map4d-class)|MFCameraPosition| trả về Camera Position của Map4D                          |
+| **getCameraPosition**  |[Map4D](/ipostmap-map/android/v1.0/reference/map.md?id=map4d-class)|MFCameraPosition| trả về Camera Position của Map4D                          |
 
 ## MFCameraUpdateFactory
 
@@ -119,11 +119,11 @@ Các phương thức:
 
 | Name                              | Parameters   | Return Value | Description                                                                         |
 |-----------------------------------|--------------|--------------|-------------------------------------------------------------------------------------|
-| `static` **newCameraPosition**    |[MFCameraPosition](/reference/map?id=mfcameraposition)|MFCameraUpdate| trả về MFCameraUpdate từ một camera position|
-| `static` **newCoordinate**        |[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate)|MFCameraUpdate| trả về MFCameraUpdate từ một tọa độ      |
-| `static` **newCoordinateBounds**  |[MFCoordinateBounds](/reference/coordinates?id=mfcoordinatebounds), int|MFCameraUpdate| trả về MFCameraUpdate từ một vùng bounds và padding      |
-| `static` **newCoordinateBounds**  |[MFCoordinateBounds](/reference/coordinates?id=mfcoordinatebounds), int, int, int, int|MFCameraUpdate| trả về MFCameraUpdate từ một vùng bounds và padding|
-| `static` **newCoordinateZoom**    |[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate), double|MFCameraUpdate| trả về MFCameraUpdate từ một tọa độ và mức zoom |
+| `static` **newCameraPosition**    |[MFCameraPosition](/ipostmap-map/android/v1.0/reference/map.md?id=mfcameraposition)|MFCameraUpdate| trả về MFCameraUpdate từ một camera position|
+| `static` **newCoordinate**        |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate)|MFCameraUpdate| trả về MFCameraUpdate từ một tọa độ      |
+| `static` **newCoordinateBounds**  |[MFCoordinateBounds](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mfcoordinatebounds), int|MFCameraUpdate| trả về MFCameraUpdate từ một vùng bounds và padding      |
+| `static` **newCoordinateBounds**  |[MFCoordinateBounds](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mfcoordinatebounds), int, int, int, int|MFCameraUpdate| trả về MFCameraUpdate từ một vùng bounds và padding|
+| `static` **newCoordinateZoom**    |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate), double|MFCameraUpdate| trả về MFCameraUpdate từ một tọa độ và mức zoom |
 | `static` **zoomIn**               | `none`       | MFCameraUpdate| trả về MFCameraUpdate của mức zoom lớn hơn 1 đơn vị so với hiện tại |
 | `static` **zoomOut**              | `none`       | MFCameraUpdate| trả về MFCameraUpdate của mức zoom nhỏ hơn 1 đơn vị so với hiện tại |
 | `static` **zoomTo**               | double       | MFCameraUpdate| trả về MFCameraUpdate của mức zoom mà chúng ta truyền vào           |
@@ -164,7 +164,7 @@ Các phương thức:
 #### Tạo mapdId
 
 Một `mapID` là một định danh duy nhất đại diện cho một instance duy nhất của Map4D. Bạn có thể tạo `mapID` và liên kết với map style thông qua
-[trang quản lý của Map4D](https://map.map4d.vn/developer/mapstyle)
+[trang quản lý của IPOSTMAP](https://map.ipostmap.vn/manager/mapstyle)
 
 #### Thêm mapId vào ứng dụng
 
