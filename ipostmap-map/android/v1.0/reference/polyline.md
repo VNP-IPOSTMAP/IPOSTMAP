@@ -44,8 +44,8 @@
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setPath**                  | List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>|`none`| Set mảng các điểm tọa độ của polyline                      |
-| **getPoints**                | None |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| Get list các điểm tọa độ của polyline                       |
+| **setPath**                  | List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>|`none`| Set mảng các điểm tọa độ của polyline                      |
+| **getPoints**                | None |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| Get list các điểm tọa độ của polyline                       |
 | **setWidth**                 | float                                   | `none`       | Set độ rộng cho polyline                                                               |
 | **getWidth**                 | `none`                                  | float        | Get độ rộng của polyline                                                               |
 | **setColor**                 | @ColorInt int                           | `none`       | Set màu cho polyline theo kiểu @ColorInt int                                           |
@@ -54,8 +54,8 @@
 | **isVisible**                | `none`                                  | boolean      | Get trạng thái ẩn/hiện của polyline                                                    |
 | ~**setStyle**~               | MFPolylineStyle                         | `none`       | Set kiểu vẽ cho polyline (có 2 kiểu là: **MFPolyline.Solid** và **MFPolylineStyle.Dotted**)|
 | ~**getStyle**~               | `none`                                  | MFPolylineStyle| Get kiểu vẽ hiện tại của polyline                                                    |
-| **setPattern**     | [PatternItem](/reference/polyline?id=patternitem-class) | `none` | Set pattern cho polyline là kiểu Solid, Dash, Dot hoặc Icon                            |
-| **getPattern**     | `none` | [PatternItem](/reference/polyline?id=patternitem-class) | Get pattern hiện tại của polyline                                                      |
+| **setPattern**     | [PatternItem](/ipostmap-map/android/v1.0/reference/polyline.md?id=patternitem-class) | `none` | Set pattern cho polyline là kiểu Solid, Dash, Dot hoặc Icon                            |
+| **getPattern**     | `none` | [PatternItem](/ipostmap-map/android/v1.0/reference/polyline.md?id=patternitem-class) | Get pattern hiện tại của polyline                                                      |
 | **setZIndex**                | float                                   | `none`       | Set giá trị zIndex cho polyline                                                        |
 | **getZIndex**                | `none`                                  | float        | Get giá trị zIndex hiện tại của polyline                                               |
 | **setTouchable**             | boolean                                 | `none`       | Cho phép có được tương tác với polyline trên bản đồ hay không                          |
@@ -72,14 +72,14 @@
 
 | Name                         | Type                | Description                                                                                                                                                           |
 |------------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **path**                     |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| truyền vào một mảng các tọa độ **MFLocationCoordinate** để tạo Polyline.                                       |
+| **path**                     |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| truyền vào một mảng các tọa độ **MFLocationCoordinate** để tạo Polyline.                                       |
 | **width**                    | float               | chỉ định độ rộng của Polyline theo đơn vị point.                                                                                                                      |
 | **color**                    | @ColorInt int       | chỉ định màu sắc của Polyline theo kiểu @ColorInt int. Giá trị mặc định là **"Color.BLACK"**.|
 | **visible**                  | boolean             | xác định Polyline có thể ẩn hay hiện trên bản đồ. Giá trị mặc định là **true**.                                                                                       |
 | **touchable**                | boolean             | cho phép người dùng có thể tương tác với Polyline trên bản đồ hay không. Giá trị mặc định là **true**.                                                                |
 | **zIndex**                   | float               | chỉ định thứ tự hiển thị giữa các Polyline với nhau hoặc giữa Polyline với các đối tượng khác trên bản đồ. Giá trị mặc định là **-1.0f**.                             |
 | ~**style**~                  | MFPolylineStyle     | chỉ định Polyline là loại nét liền (**"MFPolylineStyle.Solid"**) hay nét đứt (**"MFPolylineStyle.Dotted"**). Giá trị mặc định là **"MFPolylineStyle.Solid"**          |
-| **pattern**                  | [PatternItem](/reference/polyline?id=patternitem-class)| chỉ định pattern cho Polyline là kiểu Solid, Dash, Dot hoặc Icon. Giá trị mặc định là Solid                                    |
+| **pattern**                  | [PatternItem](/ipostmap-map/android/v1.0/reference/polyline.md?id=patternitem-class)| chỉ định pattern cho Polyline là kiểu Solid, Dash, Dot hoặc Icon. Giá trị mặc định là Solid                                    |
 | **userData**                 | Object              | Kiểu User Data mà người dùng muốn lưu                                                                                                                                 |
 
 ### PatternItem class
@@ -90,7 +90,7 @@
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **getType**                  |`none`| [MFPatternType](/reference/polyline?id=mfpatterntype) | Get kiểu của pattern                                                             |
+| **getType**                  |`none`| [MFPatternType](/ipostmap-map/android/v1.0/reference/polyline.md?id=mfpatterntype) | Get kiểu của pattern                                                             |
 | **getTypeValue**             |`none`                                   | int          | Get giá trị kiểu pattern theo số nguyên                                                |
 
 ### MFSolidPattern class
