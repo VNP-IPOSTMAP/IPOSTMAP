@@ -1,10 +1,10 @@
 # Map events
 
->Map4D Android SDK cung cấp các sự kiện của map hay tương tác của người dùng giúp cho nhà phát triển có thể lắng nghe và xử lý.
+>IPOSTMAP Android SDK cung cấp các sự kiện của map hay tương tác của người dùng giúp cho nhà phát triển có thể lắng nghe và xử lý.
 
 ## Giới thiệu chung
 
-**Map4D** cung cấp các interface cho phép người dùng thao tác với các sự kiện trên map.
+**IPOSTMAP** cung cấp các interface cho phép người dùng thao tác với các sự kiện trên map.
 
 ### Các sự kiện thao tác trên Map:
 
@@ -18,7 +18,7 @@
 | 6  | OnMapClickListener          | Được gọi khi có sự kiện touch trên map                                                                       |
 | 7  | OnInfoWindowClickListener   | Được gọi khi có sự kiện touch trên info window của Marker                                                    |
 | 8  | OnPlaceClickListener        | Được gọi khi có sự kiện touch trên place text khi Map ở chế độ ROADMAP (vector)                              |
-| 9  | OnDataSourceFeatureClickListener | Được gọi khi người dùng touch lên các đối tượng của data source custom (không phải dữ liệu của Map4D)   |
+| 9  | OnDataSourceFeatureClickListener | Được gọi khi người dùng touch lên các đối tượng của data source custom (không phải dữ liệu của IPOSTMAP)   |
 
 ## Hướng dẫn chi tiết
 
