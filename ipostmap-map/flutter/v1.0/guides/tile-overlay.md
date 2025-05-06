@@ -1,11 +1,11 @@
 # Tile Overlay
 
-> Tile Overlay là một loại overlay cho phép người dùng hiển thị các tile map khác nhau từ nhiều nguồn khác nhau lên trên tile map có sẵn của Map4D
+> Tile Overlay là một loại overlay cho phép người dùng hiển thị các tile map khác nhau từ nhiều nguồn khác nhau lên trên tile map có sẵn của IPOSTMAP
 
 ## Add Tile overlay
 
 Để thêm 1 tile overlay vào map cần tạo mới 1 đối tượng của lớp [MFTileOverlay](MFTileOverlay) sau đó truyền cho [MFMapView](MFMapView).  
-Map4dMap plugin cung cấp sẵn một phương thức static `MFTileOverlay.newWithUrlPattern` để tạo đối tượng tile overlay với url pattern.  
+IPOSTMAP plugin cung cấp sẵn một phương thức static `MFTileOverlay.newWithUrlPattern` để tạo đối tượng tile overlay với url pattern.  
 Cấu trúc url pattern:
 
 ```
