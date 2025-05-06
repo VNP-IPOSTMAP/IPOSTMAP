@@ -52,7 +52,7 @@ var options = MFBuildingOverlayOptions()
 | Name           | Parameters                              | Return Value | Description                                                                            |
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
 | **getBuildingUrl** | int, int, int                       | String       | Trả về là một đường dẫn URL chứa dữ liệu của POI trên Tile ứng với tọa độ x, y và mức zoom tương ứng|
-| **parserBuildingData**| String                           |List<[MFBuildingData](/reference/building-overlay?id=mfbuildingdata-class)>| Biến đổi dữ liệu từ String trả vê từ phương thức `getBuildingUrl()` sang List< MFBuildingData >|
+| **parserBuildingData**| String                           |List<[MFBuildingData](/ipostmap-map/android/v1.0/reference/building-overlay.md?id=mfbuildingdata-class)>| Biến đổi dữ liệu từ String trả vê từ phương thức `getBuildingUrl()` sang List< MFBuildingData >|
 
 ## MFBuildingData class
 
