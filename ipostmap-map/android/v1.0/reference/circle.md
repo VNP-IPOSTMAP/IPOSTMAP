@@ -28,8 +28,8 @@ Tạo Circle từ  MFCircleOptions:
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setCenter**                | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| `none`   | Set tạo độ tâm cho circle                                    |
-| **getCenter**                | `none` |  [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate) | Get tọa độ tâm của circle                                    |
+| **setCenter**                | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| `none`   | Set tạo độ tâm cho circle                                    |
+| **getCenter**                | `none` |  [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate) | Get tọa độ tâm của circle                                    |
 | **setFillColor**             | @ColorInt int                           | `none`       | Set màu cho circle kiểu ColorInt.                                                      |
 | **getFillColor**             | `none`                                  | @ColorRes int| Get màu của circle                                                                     |
 | **setRadius**                | double                                  | `none`       | Set bán kính cho circle theo đơn vị là mét                                             |
@@ -56,7 +56,7 @@ Tạo Circle từ  MFCircleOptions:
 
 | Name                       | Type                | Description                                                                                                                                                           |
 |----------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **center**                 |[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| một điểm tọa độ **MFLocationCoordinate** để xác định tâm của Circle.                                                              |
+| **center**                 |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| một điểm tọa độ **MFLocationCoordinate** để xác định tâm của Circle.                                                              |
 | **radius**                 | double              | chỉ định bán kính của Circle theo đơn vị **mét**.                                                                                                                     |
 | **fillColor**              | string              | chỉ định màu sắc của Circle theo kiểu @ColorInt int. Giá trịn mặc định là Color.RED.                                                                                       |
 | **visible**                | boolean             | xác định Circle có thể ẩn hay hiện trên bản đồ. Giá trị mặc định là **true**.                                                                                         |
