@@ -3,7 +3,7 @@
 Marker dùng để xác định một vị trí trên bản đồ. Cho phép người dùng thêm một điểm ghim trên bản đồ ở một vị trí xác định.
 
 ### 1. Thêm một marker
-Hàm khởi tạo của lớp **MFMarker** cần truyền vào một đối tượng [MFMarkerOptions](/reference/marker?id=marker-options) để định nghĩa các thuộc tính ban đầu của
+Hàm khởi tạo của lớp **MFMarker** cần truyền vào một đối tượng [MFMarkerOptions](/ipostmap-map/android/v1.0/reference/marker.md?id=marker-options) để định nghĩa các thuộc tính ban đầu của
 Marker. 
 
 Ví dụ sau đây thêm một Marker đơn giản vào bản đồ tại Bình Thạnh, Thành phố Hồ Chí Minh:
