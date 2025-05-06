@@ -1,16 +1,16 @@
-# Map4dMap Flutter
-[![map4d](https://img.shields.io/badge/map4d-map-orange)](https://map4d.vn/)
+# IPOSTMAP Flutter
+[![ipostmap](https://img.shields.io/badge/ipostmap-map-orange)](https://ipostmap.vn/)
 [![platform](https://img.shields.io/badge/platform-flutter-45d2fd.svg)](https://flutter.dev/)
 [![pub package](https://img.shields.io/pub/v/map4d_map.svg)](https://pub.dev/packages/map4d_map)
 
-> **Map4dMap Flutter package** cung cấp Map4dMap SDK cho cả thiết bị Android và iOS, cho phép tùy chỉnh bản đồ với nội dung để hiển thị trên các thiết bị di động.  
-> Map4dMap plugin dựa trên cơ chế của Flutter để bổ sung các màn hình hiển thị cho Android và iOS.
+> **IPOSTMAP Flutter package** cung cấp IPOSTMAP SDK cho cả thiết bị Android và iOS, cho phép tùy chỉnh bản đồ với nội dung để hiển thị trên các thiết bị di động.  
+> IPOSTMAP plugin dựa trên cơ chế của Flutter để bổ sung các màn hình hiển thị cho Android và iOS.
 
 ## Getting Started
 
 ### Installation
 
-Để sử dụng Map4dMap plugin, thêm `map4d_map` vào mục **dependencies** trong file `pubspec.yaml` của Flutter project.
+Để sử dụng IPOSTMAP plugin, thêm `map4d_map` vào mục **dependencies** trong file `pubspec.yaml` của Flutter project.
 
 ```yaml
 dependencies:
@@ -30,7 +30,7 @@ import 'package:map4d_map/map4d_map.dart';
 
 ### API key
 
-API key là một chuỗi ký tự dùng để xác thực các yêu cầu liên quan đến project của bạn dùng cho các mục đích sử dụng Map4dMap SDK.  
+API key là một chuỗi ký tự dùng để xác thực các yêu cầu liên quan đến project của bạn dùng cho các mục đích sử dụng IPOSTMAP SDK.  
 Bạn phải có ít nhất một API key liên kết với project của mình
 
 Tạo API key tại địa chỉ: <https://map.map4d.vn/developer/key/>
@@ -60,7 +60,7 @@ Chỉnh sửa file `ios/Runner/Info.plist` và thêm API key của bạn cho iOS
 
 ### Sử dụng
 
-Map4dMap Flutter cung cấp `MFMapView` widget để hiển thị Map4d, bạn có thể thêm `MFMapView` widget vào widget tree của bạn.  
+IPOSTMAP Flutter cung cấp `MFMapView` widget để hiển thị Map4d, bạn có thể thêm `MFMapView` widget vào widget tree của bạn.  
 Bản đồ có thể được điều khiển với `MFMapViewController` được truyền cho `MFMapView` khi hàm `onMapCreated` được gọi lại.
 
 ### Ví dụ
