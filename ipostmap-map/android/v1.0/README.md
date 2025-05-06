@@ -1,14 +1,14 @@
-# Map4dMap Android SDK
-[![map4d](https://img.shields.io/badge/map4d-map-orange)](https://map4d.vn/)
+# IPOSTMAP Android SDK
+[![ipostmap](https://img.shields.io/badge/ipostmap-map-orange)](https://ipostmap.vn/)
 [![platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://www.android.com/)
-[![maven](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fpackages.map4d.vn%2Frepository%2Fmaven-public%2Fvn%2Fmap4d%2FMap4dMap%2Fmaven-metadata.xml)](https://map4d.vn/)
+[![maven](https://img.shields.io/maven-metadata/v?metadataUrl=https%3A%2F%2Fpackages.map4d.vn%2Frepository%2Fmaven-public%2Fvn%2Fmap4d%2FMap4dMap%2Fmaven-metadata.xml)](https://ipostmap.vn/)
 
-Map4dMap Android SDK for Android, written in C/C++, Java.  
+IPOSTMAP Android SDK for Android, written in C/C++, Java.  
 
-> Map4D Android SDK cho phép bạn tùy chỉnh bản đồ với nội dung để hiển thị trên thiết bị android hỗ trợ opengl 2.0   
-Map4D Android SDK không chỉ mang hình ảnh thực tế lên trên bản đồ 3D, ngoài ra còn cho phép tương tác và điều chỉnh các đối tượng 3D của bạn  
+> IPOSTMAP Android SDK cho phép bạn tùy chỉnh bản đồ với nội dung để hiển thị trên thiết bị android hỗ trợ opengl 2.0   
+IPOSTMAP Android SDK không chỉ mang hình ảnh thực tế lên trên bản đồ 3D, ngoài ra còn cho phép tương tác và điều chỉnh các đối tượng 3D của bạn  
 
-[![Map4D Android SDK](../resources/overView.png)](https://map4d.vn) 
+[![IPOSTMAP Android SDK](../resources/overView.png)](https://ipostmap.vn/) 
 
 ## Installation
 
