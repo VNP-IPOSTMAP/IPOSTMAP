@@ -31,7 +31,7 @@ Dùng hai ngón tay thu hẹp/ mở rộng khoảng cách của 2 ngón tay trê
 này là một thuộc tính của lớp `Map4D`
 
 - Các điều khiển sau có thể được bật và tắt theo các phương thức sau:
-    - `setMyLocationButtonEnabled()`: Bật tắt nút myLocation mà Map4D Android SDK cung cấp.
+    - `setMyLocationButtonEnabled()`: Bật tắt nút myLocation mà IPOSTMAP Android SDK cung cấp.
     - `setScrollGesturesEnabled()`: Bật tắt cử chỉ di chuyển Map. Nếu được bật, người dùng có thể vuốt để di chuyển map.
     - `setZoomGesturesEnabled()`: Bật tắt các cử chỉ phóng to hoặc thu nhỏ Map. Nếu được bật, người dùng có thể nhấn đúp, dùng hai ngón tay thu hẹp hoặc mở rộng để thay đổi mức zoom của camera.
     - `setTiltGesturesEnabled()`: Bật tắt các cử chỉ nghiêng Map. Nếu được bật, người dùng có thể sử dụng hai ngón tay vuốt dọc xuống hoặc vuốt lên để nghiêng camera.
@@ -147,7 +147,7 @@ var bearing = cameraPosition.bearing
 
 ## 4. Di chuyển Map
 
-**Map4D Android SDK** hỗ trợ người dùng di chuyển **Map** tới một vị trí camera mới thông qua 2 phương thức `animateCamera()`
+**IPOSTMAP Android SDK** hỗ trợ người dùng di chuyển **Map** tới một vị trí camera mới thông qua 2 phương thức `animateCamera()`
 và `moveCamera()`.
 
 **Sử dụng phương thức `animateCamera()`
