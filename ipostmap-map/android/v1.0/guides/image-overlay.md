@@ -1,12 +1,12 @@
 # Image Overlay
 
-Image Overlay là một loại overlay cho phép hiển thị một hình ảnh có sẵn lên một vùng tọa độ xác định trên Map4D.
+Image Overlay là một loại overlay cho phép hiển thị một hình ảnh có sẵn lên một vùng tọa độ xác định trên IPOSTMAP.
 
 ![CocoaPods](../../resources/imageOverlay.png)
 
 ## Thêm Image Overlay
 
-Để thêm 1 image overlay vào map cần tạo 1 đối tượng của lớp [MFImageOverlayOptions](reference/image-overlay?id=mfimageoverlayoptions-class) và set các options cần thiết
+Để thêm 1 image overlay vào map cần tạo 1 đối tượng của lớp [MFImageOverlayOptions](/ipostmap-map/android/v1.0/reference/image-overlay.md?id=mfimageoverlayoptions-class) và set các options cần thiết
 trên đối tượng đó. Sau đó gọi hàm `addImageOverlay` của lớp Map4D.
 
 <!-- tabs:start -->
