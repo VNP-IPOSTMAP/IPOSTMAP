@@ -1,12 +1,12 @@
 # Data Layer
 
-Map4D Web SDK cung cấp 1 data layer cho phép người dùng hiển thị dữ liệu không gian địa lý tùy ý, theo định dạng [GeoJSON](https://geojson.org/)
+IPOSTMAP Web SDK cung cấp 1 data layer cho phép người dùng hiển thị dữ liệu không gian địa lý tùy ý, theo định dạng [GeoJSON](https://geojson.org/)
 
 ## Thêm feature vào data layer
 
 Có 2 cách để thêm data layer vào Map4D
-- Sử dụng hàm `addGeoJson` của đối tượng [data](/reference/data-layer?id=mapdata-class) trong [map](/reference/map?id=map-class)
-- Sử dụng hàm `add` của đối tượng [data](/reference/data-layer?id=mapdata-class) trong [map](/reference/map?id=map-class)
+- Sử dụng hàm `addGeoJson` của đối tượng [data](/ipostmap-map/web/v1.0/reference/data-layer.md?id=mapdata-class) trong [map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class)
+- Sử dụng hàm `add` của đối tượng [data](/ipostmap-map/web/v1.0/reference/data-layer.md?id=mapdata-class) trong [map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class)
 
 Dưới đây là ví dụ thêm data layer sử dụng hàm `addGeoJson`
 
