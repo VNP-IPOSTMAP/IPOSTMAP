@@ -1,6 +1,6 @@
 # Map4D Widget
 
-> **Map4dMap Flutter** cung cấp `MFMapView` [widget](https://flutter.dev/docs/development/ui/widgets-intro) để hiển thị Map4d.  
+> **IPOSTMAP Flutter** cung cấp `MFMapView` [widget](https://flutter.dev/docs/development/ui/widgets-intro) để hiển thị Map4d.  
 > Để điều khiển Map4d widget, có thể sử dụng [MFMapViewController](./guides/controller.md) được truyền cho `MFMapView` khi hàm `onMapCreated` được gọi lại.
 
 ## Simple Usage
@@ -89,13 +89,13 @@ const MFMapView({
 | 20 | onBuildingTap | [MFMapBuildingCallback](//pub.dev/documentation/map4d_map/latest/map4d_map/MFMapBuildingCallback.html) | Được gọi khi người dùng tap vào đối tượng 3D trên bản đồ (không phải building annotation) |
 | 21 | onPlaceTap | [MFMapPlaceCallback](//pub.dev/documentation/map4d_map/latest/map4d_map/MFMapPlaceCallback.html) | Được gọi khi người dùng tap vào place text trên bản đồ (đối với mapType là roadmap) |
 | 22 | onDataSourceFeatureTap | [MFDataSourceFeatureCallback](//pub.dev/documentation/map4d_map/latest/map4d_map/MFDataSourceFeatureCallback.html) | Được gọi khi người dùng tap vào đối tượng data source custom. |
-| 23 | markers | [Set\<MFMarker\>](./guides/marker.md) | Những marker annotation sẽ được hiển thị trên bản đồ. |
-| 24 | circles | [Set\<MFCircle\>](./guides/circle.md) | Những circle annotation sẽ được hiển thị trên bản đồ. |
-| 25 | polylines | [Set\<MFPolyline\>](./guides/polyline.md) | Những polyline annotation sẽ được hiển thị trên bản đồ. |
-| 26 | polygons | [Set\<MFPolygon\>](./guides/polygon.md) | Những polygon annotation sẽ được hiển thị trên bản đồ. |
-| 27 | pois | [Set\<MFPOI\>](./guides/poi.md) | Những POI annotation sẽ được hiển thị trên bản đồ. |
-| 28 | buildings | [Set\<MFBuilding\>](./guides/building.md) | Những building annotation sẽ được hiển thị trên bản đồ. |
-| 29 | tileOverlays | [Set\<MFTileOverlay\>](./guides/tile-overlay.md) | Những title overlay sẽ được hiển thị trên bản đồ. |
+| 23 | markers | [Set\<MFMarker\>](/ipostmap-map/flutter/v1.0/guides/marker.md) | Những marker annotation sẽ được hiển thị trên bản đồ. |
+| 24 | circles | [Set\<MFCircle\>](/ipostmap-map/flutter/v1.0/guides/circle.md) | Những circle annotation sẽ được hiển thị trên bản đồ. |
+| 25 | polylines | [Set\<MFPolyline\>](/ipostmap-map/flutter/v1.0/guides/polyline.md) | Những polyline annotation sẽ được hiển thị trên bản đồ. |
+| 26 | polygons | [Set\<MFPolygon\>](/ipostmap-map/flutter/v1.0/guides/polygon.md) | Những polygon annotation sẽ được hiển thị trên bản đồ. |
+| 27 | pois | [Set\<MFPOI\>](/ipostmap-map/flutter/v1.0/guides/poi.md) | Những POI annotation sẽ được hiển thị trên bản đồ. |
+| 28 | buildings | [Set\<MFBuilding\>](/ipostmap-map/flutter/v1.0/guides/building.md) | Những building annotation sẽ được hiển thị trên bản đồ. |
+| 29 | tileOverlays | [Set\<MFTileOverlay\>](/ipostmap-map/flutter/v1.0/guides/tile-overlay.md) | Những title overlay sẽ được hiển thị trên bản đồ. |
 
 ### API Reference
 
