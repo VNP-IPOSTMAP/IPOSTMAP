@@ -7,15 +7,15 @@ tile map có sẵn của Map4D.
 
 ## Giới thiệu
 
-Một đối tượng **TileOverlay** sẽ xác định một tập hợp các hình ảnh của tile sẽ được vẽ lên trên các tile của bản đồ Map4D.
+Một đối tượng **TileOverlay** sẽ xác định một tập hợp các hình ảnh của tile sẽ được vẽ lên trên các tile của bản đồ IPOSTMAP.
 
 Bạn cần phải cung cấp các tile cho từng mức zoom mà bạn muốn vẽ. Tile Overlay rất hữu ích khi bạn muốn thêm hình ảnh bao
 quát vào bản đồ, thường bao gồm các khu vực địa lý rộng lớn, hoặc những hình ảnh chi tiết hơn cho một khu vực nào đó.
 
 ## Tile coordinates và các mức Zoom
 
-Bản đồ Map4D chia hình ảnh hiển thị thông tin bản đồ thành một tập hợp các ô bản đồ hình vuông được sắp xếp theo dạng lưới.
-Khi bản đồ di chuyển đến một vị trí mới hoặc thay đổi một mức zoom mới thì Map4D sẽ xác định những ô nào sẽ được vẽ và request
+Bản đồ IPOSTMAP chia hình ảnh hiển thị thông tin bản đồ thành một tập hợp các ô bản đồ hình vuông được sắp xếp theo dạng lưới.
+Khi bản đồ di chuyển đến một vị trí mới hoặc thay đổi một mức zoom mới thì IPOSTMAP sẽ xác định những ô nào sẽ được vẽ và request
 dữ liệu hình ảnh cho các ô đó.
 
 Ô có tọa độ (0, 0) luôn ở góc Tây Bắc của bản đồ, với giá trị **x** tăng từ Tây sang Đông và giá trị **y** tăng từ Bắc xuống
