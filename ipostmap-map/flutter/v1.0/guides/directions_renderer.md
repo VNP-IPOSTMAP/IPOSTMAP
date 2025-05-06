@@ -1,6 +1,6 @@
 # Directions Renderer
 
-> Map4dMap Flutter SDK cung cấp lớp **MFDirectionsRenderer** để dễ dàng hiển thị các chỉ đường lên bản đồ.
+> IPOSTMAP Flutter SDK cung cấp lớp **MFDirectionsRenderer** để dễ dàng hiển thị các chỉ đường lên bản đồ.
 
 ![Directions Renderer](../../resources/directions-renderer.png)
 
