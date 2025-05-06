@@ -52,14 +52,14 @@ var options = MFPOIOverlayOptions()
 | Name           | Parameters                              | Return Value | Description                                                                            |
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
 | **getPOIUrl** | int, int, int, boolean                   | String       | Trả về là một đường dẫn URL chứa dữ liệu của POI trên Tile ứng với tọa độ x, y, mức zoom và chế độ Map tương ứng|
-| **parserPOIData**| String                                |List<[MFPOIData](/reference/poi-overlay?id=mfpoidata-class)>| Biến đổi dữ liệu từ String trả về từ phương thức `getPOIUrl` sang List< MFPOIData >     |
+| **parserPOIData**| String                                |List<[MFPOIData](/ipostmap-map/android/v1.0/reference/poi-overlay.md?id=mfpoidata-class)>| Biến đổi dữ liệu từ String trả về từ phương thức `getPOIUrl` sang List< MFPOIData >     |
 
 ## MFPOIData class
 
 `MFPOIData` class
 
-MFPOIData là object chứa thông tin của POI để Map4D SDK có thể hiểu được, người sử dụng POI overlay sẽ thực hiện implement phương thức `parserPOIData` để biến đổi dữ liệu trả về từ server của
-mình thành mảng các POI data cung cấp cho Map4D SDK hiển thị lên bản đồ.
+MFPOIData là object chứa thông tin của POI để IPOSTMAP SDK có thể hiểu được, người sử dụng POI overlay sẽ thực hiện implement phương thức `parserPOIData` để biến đổi dữ liệu trả về từ server của
+mình thành mảng các POI data cung cấp cho IPOSTMAP SDK hiển thị lên bản đồ.
 
 **Constructor**
 
@@ -92,7 +92,7 @@ val poiData = MFPOIData(id, title, MFLocationCoordinate(lat, lng))
 | Name           | Parameters                              | Return Value | Description                                                                            |
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
 | **setId**      | String                                  | `none` | set id cho POI                                                                               |
-| **setPosition**| [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) | `none`| Set vị trí tọa độ của POI hiển thị trên bản đồ                 |
+| **setPosition**| [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) | `none`| Set vị trí tọa độ của POI hiển thị trên bản đồ                 |
 | **setTitle**   | String                                  | `none`| Set title cho POI                                                                             |
 | ~**setTitleColor**~   | int                              | `none`| Set màu của title cho POI                                                                     |
 | **setColor**   | int                                     | `none`| Màu cho icon (nếu sử dụng type) và tiêu đề của POI                                            |
