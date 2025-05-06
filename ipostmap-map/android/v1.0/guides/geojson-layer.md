@@ -1,14 +1,14 @@
 # GeoJson Layer
 
-Map4D Android SDK cung cấp GeoJson layer cho phép người dùng hiển thị dữ liệu địa lý tùy ý, theo định dạng [GeoJSON](https://geojson.org/)
+IPOSTMAP Android SDK cung cấp GeoJson layer cho phép người dùng hiển thị dữ liệu địa lý tùy ý, theo định dạng [GeoJSON](https://geojson.org/)
 
 ![CocoaPods](../../resources/geojson-layer.png)
 
 ### 1. Thêm một GeoJSON layer
 
-Để thêm một GeoJSON layer vào map, trước tiên cần tạo mới 1 đối tượng của lớp [MFGeoJsonOptions](/reference/geojson-layer?id=geojson-options) để
+Để thêm một GeoJSON layer vào map, trước tiên cần tạo mới 1 đối tượng của lớp [MFGeoJsonOptions](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=geojson-options) để
 định nghĩa các thuộc tính ban đầu của lớp GeoJSON.
-Sau đó ta gọi phương thức `addGeoJson` của lớp `Map4D`. Đối tượng trả về sau khi gọi phương thức `addGeoJson` là một [MFGeoJson](/reference/geojson-layer?id=geojson-class)
+Sau đó ta gọi phương thức `addGeoJson` của lớp `Map4D`. Đối tượng trả về sau khi gọi phương thức `addGeoJson` là một [MFGeoJson](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=geojson-class)
 
 Ví dụ sau đây thêm một GeoJson layer vào bản đồ ở tọa độ `16.073420650938914, 108.22404093434358`
 
@@ -283,5 +283,5 @@ option `pointStyle` của đối tượng `MFGeoJsonOptions` trước khi thêm 
   });
 ```
 <!-- tabs:end -->
-* Tham số geoJson sẽ trả về đối tượng [MFGeoJson](/reference/geojson-layer?id=geojson-class) mà người dùng click.
-* Tham số feature sẽ trả về đối tượng [MFGeoJsonFeature](/reference/geojson-layer?id=mfgeojsonfeature) của lớp GeoJson mà người dùng click lên.
+* Tham số geoJson sẽ trả về đối tượng [MFGeoJson](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=geojson-class) mà người dùng click.
+* Tham số feature sẽ trả về đối tượng [MFGeoJsonFeature](/ipostmap-map/android/v1.0/reference/geojson-layer.md?id=mfgeojsonfeature) của lớp GeoJson mà người dùng click lên.
