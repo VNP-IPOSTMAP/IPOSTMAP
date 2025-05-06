@@ -1,6 +1,6 @@
 # Circle
 
-Nếu bạn muốn vẽ một hình tròn lên bản đồ, thì Map4D SDK cung cấp cho bạn lớp **map4d.Circle** để thực hiện điều đó.
+Nếu bạn muốn vẽ một hình tròn lên bản đồ, thì IPOSTMAP SDK cung cấp cho bạn lớp **map4d.Circle** để thực hiện điều đó.
 
 ### 1. Thêm một Circle
 
@@ -77,7 +77,7 @@ là đối tượng **{circle: true}**.
 
 Các sự kiện có thể lắng nghe trên Polyline là: **click, dblClick, longClick, rightClick, hover, drag, dragStart, dragEnd**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 Ví dụ để lắng nghe sự kiện **click** cho Circle ta thực hiện như sau:
 
