@@ -36,19 +36,19 @@ interface DirectionsRendererOptions {
 
 Các thuộc tính của **DirectionsRendererOptions** :
 
-- **routes** (tùy chọn): truyền vào một mảng 2 chiều các tọa độ ILatLng hoặc dữ liệu Route bằng JSON string trả về từ [Map4D SDK API Route](https://docs.map4d.vn/map4d-service/api/v1.1/#/api_route)
-hoặc một đối tượng [RouteOptions](/reference/directions-renderer?id=routeoptions) để tạo Directions Renderer.
+- **routes** (tùy chọn): truyền vào một mảng 2 chiều các tọa độ ILatLng hoặc dữ liệu Route bằng JSON string trả về từ [IPOSTMAP SDK API Route](/ipostmap-service/api/v1.0/api_route.md)
+hoặc một đối tượng [RouteOptions](/ipostmap-map/web/v1.0/reference/directions-renderer.md?id=routeoptions) để tạo Directions Renderer.
 - **activedIndex** (tùy chọn): chỉ định index cho route được active trong Directions Renderer.
 - **activeStrokeWidth** (tùy chọn): chỉ định độ rộng của active line theo đơn vị point. 
 - **activeStrokeColor** (tùy chọn): chỉ định màu sắc của active line theo mã HEX (ví dụ "#FF0000").
 - **activeOutlineWidth** (tùy chọn): chỉ định độ rộng của active outline theo đơn vị point. 
 - **activeOutlineColor** (tùy chọn): chỉ định màu sắc của active outline theo mã HEX (ví dụ "#FF0000").
-- **activeStrokePattern** (tùy chọn): chỉ định pattern của active line. Tương tự như [pattern của Polyline](/guides/polyline?id=_4-tạo-một-polyline-sử-dụng-pattern)
+- **activeStrokePattern** (tùy chọn): chỉ định pattern của active line. Tương tự như [pattern của Polyline](/ipostmap-map/web/v1.0/guides/polyline.md?id=_4-tạo-một-polyline-sử-dụng-pattern)
 - **inactiveStrokeWidth** (tùy chọn): chỉ định độ rộng của inactive line theo đơn vị point.
 - **inactiveStrokeColor** (tùy chọn): chỉ định màu sắc của inactive line theo mã HEX (ví dụ "#FF0000").
 - **inactiveOutlineWidth** (tùy chọn): chỉ định độ rộng của inactive outline theo đơn vị point.
 - **inactiveOutlineColor** (tùy chọn): chỉ định màu sắc của inactive outline theo mã HEX (ví dụ "#FF0000").
-- **inactiveStrokePattern** (tùy chọn): chỉ định pattern của inactive outline. Tương tự như [pattern của Polyline](/guides/polyline?id=_4-tạo-một-polyline-sử-dụng-pattern)
+- **inactiveStrokePattern** (tùy chọn): chỉ định pattern của inactive outline. Tương tự như [pattern của Polyline](/ipostmap-map/web/v1.0/guides/polyline.md?id=_4-tạo-một-polyline-sử-dụng-pattern)
 - **originMarkerOptions** (tùy chọn): chỉ định các options cho marker bắt đầu.
 - **destinationMarkerOptions** (tùy chọn): chỉ định các options cho marker kết thúc.
 - **waypointMarkerOptions** (tùy chọn): là mảng marker option chỉ định các marker waypoint. Các marker waypoint này có vị trí nằm ngoài route **Chú ý:** <span style="color:red">Để có đường polyline nối marker
@@ -61,7 +61,7 @@ Ví dụ sau đây sẽ thêm một Directions Renderer vào bản đồ với *
 
 <iframe src="//jsfiddle.net/duydung2007/fnjhr8x0/embedded/" style="min-width: 914px;" height="490px"></iframe>
 
-Thêm một Directions Renderer vào bản đồ với **routes** là JSON String trả về từ [Map4D SDK API Route](https://docs.map4d.vn/map4d-service/api/v1.1/#/api_route). Route này có chứa
+Thêm một Directions Renderer vào bản đồ với **routes** là JSON String trả về từ [IPOSTMAP SDK API Route](/ipostmap-service/api/v1.0/api_route.md). Route này có chứa
 2 điểm waypoint:
 
 <iframe src="//jsfiddle.net/duydung2007/zkv0rujd/embedded/" style="min-width: 914px;" height="490px"></iframe>
@@ -88,7 +88,7 @@ là đối tượng **{directions: true}**.
 
 Các sự kiện có thể lắng nghe trên Directions Renderer là: **click, dblClick, longClick, rightClick, hover**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 Ví dụ để lắng nghe sự kiện **click** cho Directions Renderer ta thực hiện như sau:
 
