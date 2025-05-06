@@ -35,9 +35,9 @@ public void onMapReady(final Map4D map4D) {
 | **getAnchorU**               | `none`                                  | double       | Get điểm neo của Marker theo chiều x                                                     |
 | **getAnchorV**               | `none`                                  | double       | Get điểm neo của Marker theo chiều y                                                     |
 | **getElevation**             | `none`                                  | double       | Get độ cao của marker                                                                  |
-| **getIcon**                  | `none`                                  |[MFBitmapDescriptor](/reference/marker?id=MFBitmapDescriptor)| Get hình ảnh đơn giản đã set cho marker trước đó|                                                                 ||
+| **getIcon**                  | `none`                                  |[MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=MFBitmapDescriptor)| Get hình ảnh đơn giản đã set cho marker trước đó|                                                                 ||
 | **getIconView**              | `none`                                  | View         | Get hình ảnh custom đã set cho marker trước đó                                         |
-| **getPosition**              | `none`                                  | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| Get vị trí của marker         |
+| **getPosition**              | `none`                                  | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| Get vị trí của marker         |
 | **getRotation**              | `none`                                  | double       | Get góc quay của marker trên bản đồ                                                    |
 | **getSnippet**               | `none`                                  | string       | Get mô tả của marker                                                                   |
 | **getTitle**                 | `none`                                  | string       | Get tiêu đề của maker                                                                  |
@@ -50,9 +50,9 @@ public void onMapReady(final Map4D map4D) {
 | **setVisible**               | boolean                                 | `none`       | Set ẩn hiện cho Marker                                                                 |
 | **isVisible**                | `none`                                  | boolean      | Kiểm tra xem hiện tại marker có hiển thị hay không                                     |
 | **setDraggable**             | boolean                                 | void         | Cho phép marker có được kéo trên bản đồ hay không                                      |
-| **setIcon**                  | [MFBitmapDescriptor](/reference/marker?id=MFBitmapDescriptor)|void| Set một hình ảnh đơn giản cho marker để thay cho hình ảnh mặc định          |
+| **setIcon**                  | [MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=MFBitmapDescriptor)|void| Set một hình ảnh đơn giản cho marker để thay cho hình ảnh mặc định          |
 | **setIconView**              | View                                    | void         | Set một hình ảnh custom cho marker để thay cho icon và hình ảnh mặc định               |
-| **setPosition**              | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)|void| Set vị trí cho marker                                              |
+| **setPosition**              | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)|void| Set vị trí cho marker                                              |
 | **setRotation**              | double                                  | void         | Set góc quay của marker trên bản đồ theo đơn vị độ                                     |
 | **setSnippet**               | string                                  | void         | Set mô tả của marker                                                                   |
 | **setTitle**                 | string                                  | void         | Set tiêu đề bảng thông tin của marker                                                  |
@@ -76,8 +76,8 @@ public void onMapReady(final Map4D map4D) {
 
 | Name                       | Type                | Description                                                                                                                                                           |
 |----------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **position**               |[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| chỉ định một **MFLocationCoordinate** để xác định vị trí ban đầu của Marker.                                         |
-| **icon**                   |[MFBitmapDescriptor](/reference/marker?id=MFBitmapDescriptor)| Set một hình ảnh đơn giản cho marker.                                                                                         |
+| **position**               |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| chỉ định một **MFLocationCoordinate** để xác định vị trí ban đầu của Marker.                                         |
+| **icon**                   |[MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=MFBitmapDescriptor)| Set một hình ảnh đơn giản cho marker.                                                                                         |
 | **iconView**               | View                | Set hình ảnh custom cho marker                                                                                                                                        |
 | **anchor**                 | float, float        | Xác định điểm neo cho Marker                                                                                                                                          |
 | **visible**                | boolean             | xác định Marker có thể ẩn hay hiện trên bản đồ. Giá trị mặc định là **true**.                                                                                         |
