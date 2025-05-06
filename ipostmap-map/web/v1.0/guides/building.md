@@ -1,6 +1,6 @@
 # Building
 
-Điểm khác biệt giữa nền tảng bản đồ **map4d** với các nền tảng bản đồ khác đó là chế độ bản đồ 3D. Chế độ này sẽ có các đối
+Điểm khác biệt giữa nền tảng bản đồ **IPOSTMAP** với các nền tảng bản đồ khác đó là chế độ bản đồ 3D. Chế độ này sẽ có các đối
 tượng 3D mô phỏng lại các tòa nhà, cây cối, các cây cầu cũng như các công trình kiến trúc khác, ... Ngoài những đối tượng building
 3D có sẵn của bản đồ, bạn còn có thể tự tạo và thêm đối tượng 3D của bạn lên bản đồ thông qua đối tượng **map4d.Building**
 
@@ -106,7 +106,7 @@ let isBuildingsEnabled = map.isBuildingsEnabled()
 Đôi lúc bạn không muốn hiển thị tất cả các building mặc định của bản đồ mà chỉ muốn hiển thị theo một số type mà bạn muốn.
 Phương thức **setFilterBuildings()** của lớp **Map** sẽ giúp bạn thực hiện điều đó. Bạn cần truyền một mảng string chứa các
 **type** của các building mà bạn muốn hiển thị trên bản đồ.
-Hiện tại **map4d** hỗ trợ các type phổ biến sau cho building: **point, decoration, university, school, bank, bus_station,
+Hiện tại **IPOSTMAP** hỗ trợ các type phổ biến sau cho building: **point, decoration, university, school, bank, bus_station,
 stadium, cafe, restaurant, doctors, motel, shop, marketplace, museum, atm, tree, theatre, bridge, payment_centre, house,
 electronics**
 
@@ -181,7 +181,7 @@ là đối tượng **{building: true}** hoặc/và **{mapbuilding: true}**.
 
 Các sự kiện có thể lắng nghe trên Building là: **click, dblClick, longClick, rightClick, hover, drag, dragStart, dragEnd**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 Ví dụ để lắng nghe sự kiện **click** cho Building ta thực hiện như sau:
 
