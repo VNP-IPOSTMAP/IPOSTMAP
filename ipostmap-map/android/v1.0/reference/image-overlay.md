@@ -40,7 +40,7 @@ var options = MFImageOverlayOptions()
 | Name           | Parameters                              | Return Value | Description                                                                             |
 |----------------|-----------------------------------------|--------------|-----------------------------------------------------------------------------------------|
 | **bounds**     | MFCoordinateBounds                      |MFImageOverlayOptions| set giá trị bounds cho MFImageOverlayOptions                                     |
-| **image**      |[MFBitmapDescriptor](/reference/marker?id=MFBitmapDescriptor)|MFImageOverlayOptions| set hình ảnh cho cho MFImageOverlayOptions                   |
+| **image**      |[MFBitmapDescriptor](/ipostmap-map/android/v1.0/reference/marker.md?id=MFBitmapDescriptor)|MFImageOverlayOptions| set hình ảnh cho cho MFImageOverlayOptions                   |
 | **visible**    | boolean                                 |MFImageOverlayOptions| set giá trị visible cho MFImageOverlayOptions. Giá trị mặc định là `true`        |
 | **zIndex**     | double                                  |MFImageOverlayOptions| set giá trị zIndex cho MFImageOverlayOptions, quy định zIndex giữa các Image Overlay với nhau. Giá trị mặc định là 0 |
 | **opacity**    | float                                   |MFImageOverlayOptions| set độ trong suốt cho MFImageOverlayOptions (giá trị từ 0 tới 1). Giá trị mặc định là 1|
