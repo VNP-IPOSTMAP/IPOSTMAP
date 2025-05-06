@@ -57,16 +57,16 @@ addPolygonToMap()
 <!-- tabs:end -->
 
 - Parameters:
-  - options: [PolygonOptions](/reference/polygon?id=polygon-options) *required*
+  - options: [PolygonOptions](/ipostmap-map/android/v1.0/reference/polygon.md?id=polygon-options) *required*
 
 **Methods**
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setPoints**                |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| `none`| Set danh sách các điểm tọa độ của polygon                  |
-| **getPoints**                | `none` | List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| Get danh sách các điểm tọa độ của polygon                |
-| **setHoles**                 |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| `none`| Set danh sách các điểm tọa độ của lỗ bên trong polygon                  |
-| **getHoles**                 | `none` | List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| Get danh sách các điểm tọa độ của lỗ bên trong polygon                |
+| **setPoints**                |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| `none`| Set danh sách các điểm tọa độ của polygon                  |
+| **getPoints**                | `none` | List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| Get danh sách các điểm tọa độ của polygon                |
+| **setHoles**                 |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| `none`| Set danh sách các điểm tọa độ của lỗ bên trong polygon                  |
+| **getHoles**                 | `none` | List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| Get danh sách các điểm tọa độ của lỗ bên trong polygon                |
 | **setFillColor**             | @ColorInt int                                  | `none`| Set màu cho polygon theo mã kiểu @ColorInt int                                         |
 | **getFillColor**             | `none`                                  | @ColorInt int| Get màu của polygon                                                                    |
 | **setStrokeColor**           | @ColorInt int                                  | `none`| Set màu cho đường viền của polygon theo kiểu @ColorInt int                             |
@@ -90,8 +90,8 @@ addPolygonToMap()
 
 | Name                         | Type                | Description                                                                                                                                                           |
 |------------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **points**                   |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| truyền vào danh sách tọa độ **MFLocationCoordinate** để tạo Polygon                                            |
-| **holes**                    |List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>| truyền vào danh sách tọa độ **MFLocationCoordinate** của lỗ bên trong Polygon                                  |
+| **points**                   |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| truyền vào danh sách tọa độ **MFLocationCoordinate** để tạo Polygon                                            |
+| **holes**                    |List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>| truyền vào danh sách tọa độ **MFLocationCoordinate** của lỗ bên trong Polygon                                  |
 | **fillColor**                | @ColorInt int       | chỉ định màu tô phía trong của Polygon theo kiểu @ColorInt int. Giá trị mặc định là **Color.RED**                                                                     |
 | **visible**                  | boolean             | xác định Polygon có thể ẩn hay hiện trên bản đồ. Giá trị mặc định là **true**.                                                                                        |
 | **strokeColor**              | @ColorInt int       | chỉ định màu sắc đường viền ngoài cùng của Polygon theo kiểu @ColorInt int. Giá trị mặc định là **Color.BLACK**.                                                      |
