@@ -80,12 +80,12 @@
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setPaths**                 | List<List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>>|`none`| Set list các route cho Directions Renderer           |
-| **getPaths**                 |`none`|List<List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>>| Get list các route của Directions Renderer            |
-| **setStartLocation**         | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| `none`       | Set tọa độ của điểm bắt đầu                              |
-| **getStartLocation**         | `none` | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)       | Get tọa độ của điểm bắt đầu                             |
-| **setEndLocation**           | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| `none`       | Set tọa độ của điểm kết thúc                             |
-| **getEndLocation**           | `none` | [MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)       | Get tọa độ của điểm kết thúc                            |
+| **setPaths**                 | List<List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>>|`none`| Set list các route cho Directions Renderer           |
+| **getPaths**                 |`none`|List<List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>>| Get list các route của Directions Renderer            |
+| **setStartLocation**         | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| `none`       | Set tọa độ của điểm bắt đầu                              |
+| **getStartLocation**         | `none` | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)       | Get tọa độ của điểm bắt đầu                             |
+| **setEndLocation**           | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| `none`       | Set tọa độ của điểm kết thúc                             |
+| **getEndLocation**           | `none` | [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)       | Get tọa độ của điểm kết thúc                            |
 | **setWidth**                 | float                                   | `none`       | Set độ rộng line của Directions Renderer                                               |
 | **getWidth**                 | `none`                                  | float        | Get độ rộng line của Directions Renderer                                               |
 | **setOutlineWidth**          | float                                   | `none`       | Set độ rộng outline của Directions Renderer                                            |
@@ -123,9 +123,9 @@
 
 | Name                         | Type                | Description                                                                                                                                                           |
 |------------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **paths**                    |List<List<[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)>>| truyền vào một list các list tọa độ **MFLocationCoordinate** để tạo Directions Render.                   |
-| **startLocation**            |[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| truyền vào một điểm **MFLocationCoordinate** cho điểm bắt đầu.                                                       |
-| **endLocation**              |[MFLocationCoordinate](/reference/coordinates?id=MFLocationCoordinate)| truyền vào một điểm **MFLocationCoordinate** cho điểm kết thúc.                                                      |
+| **paths**                    |List<List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)>>| truyền vào một list các list tọa độ **MFLocationCoordinate** để tạo Directions Render.                   |
+| **startLocation**            |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| truyền vào một điểm **MFLocationCoordinate** cho điểm bắt đầu.                                                       |
+| **endLocation**              |[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=MFLocationCoordinate)| truyền vào một điểm **MFLocationCoordinate** cho điểm kết thúc.                                                      |
 | **jsonData**                 | String              | truyền vào dữ liệu JSON để vẽ các route cho Directions Renderer                                                            |
 | **binaryData**               | String              | truyền vào dữ liệu theo dạng nhị phân để vẽ các route cho Directions Renderer                                              |
 | **activedIndex**             | int                 | chỉ định index cho route được active trong Directions Renderer                                                             |
