@@ -2,15 +2,15 @@
 
 ## Giới thiệu
 
-> Map4dMap Android SDK cho phép tùy chỉnh kiểu hiển thị của Tile bản đồ theo nhiều chế độ (Raster, Roadmap, Satellite hoặc Map3D).
+> IPOSTMAP Android SDK cho phép tùy chỉnh kiểu hiển thị của Tile bản đồ theo nhiều chế độ (Raster, Roadmap, Satellite hoặc Map3D).
 
 ### Các loại bản đồ
 
-Map4D Map SDK hiện cung cấp 4 loại bản đồ tùy chỉnh thông qua đối tượng `MFMapType` như bên dưới:
+IPOSTMAP Map SDK hiện cung cấp 4 loại bản đồ tùy chỉnh thông qua đối tượng `MFMapType` như bên dưới:
 
 | No. | Name    | Description                                                                                                                                                            |
 |:---:|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  1  |ROADMAP  | Giá trị: `MFMapType.ROADMAP`<br>Các thành phần của bản đồ được vẽ dưới dạng các đường nét và hình khối, có độ phân giải cao<br>Đây là bản đồ mặc định của Map4dMap SDK |
+|  1  |ROADMAP  | Giá trị: `MFMapType.ROADMAP`<br>Các thành phần của bản đồ được vẽ dưới dạng các đường nét và hình khối, có độ phân giải cao<br>Đây là bản đồ mặc định của IPOSTMAP SDK |
 |  3  |SATELLITE| Giá trị: `MFMapType.SATELLITE`<br>Các tiles của bản đồ được hiển thị dưới dạng hình ảnh vệ tinh.                                                                       |
 |  3  |HYBRID   | Giá trị: `MFMapType.HYBRID`<br>Các tiles của bản đồ được hiển thị dưới dạng hình ảnh vệ tinh, kế hợp thông tin đường sá                                                |
 
