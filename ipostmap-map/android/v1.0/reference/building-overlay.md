@@ -58,8 +58,8 @@ var options = MFBuildingOverlayOptions()
 
 `MFBuildingData` class
 
-MFBuildingData là object chứa thông tin của building để Map4D SDK có thể hiểu được, người sử dụng building overlay sẽ thực hiện implement phương thức `parserBuildingData` để biến
-đổi dữ liệu trả về từ server của mình thành mảng các building data cung cấp cho Map4D SDK hiển thị lên bản đồ.
+MFBuildingData là object chứa thông tin của building để IPOSTMAP SDK có thể hiểu được, người sử dụng building overlay sẽ thực hiện implement phương thức `parserBuildingData` để biến
+đổi dữ liệu trả về từ server của mình thành mảng các building data cung cấp cho IPOSTMAP SDK hiển thị lên bản đồ.
 
 **Constructor**
 
@@ -97,14 +97,14 @@ val buildingData = MFBuildingData(id, location, model, texture)
 |----------------|-----------------------------------------|--------------|----------------------------------------------------------------------------------------|
 | **setId**      | String                                  | `none`       | set id cho Building                                                                    |
 | **setName**    | String                                  | `none`       | set tên cho Building                                                                   |
-| **setPosition**| [MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate) | `none`| Set vị trí hiển thị của Building trên bản đồ                   |
+| **setPosition**| [MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate) | `none`| Set vị trí hiển thị của Building trên bản đồ                   |
 | **setScale**   | double                                  | `none`       | Set tỉ lệ hiển thị của Building so với thực tế                                         |
 | **setBearing** | double                                  | `none`       | Set góc quay của Building khi được vẽ lên bản đồ (đơn vị: độ)                          |
 | **setElevation**| double                                 | `none`       | Set độ cao của Building so với mực nước biển                                           |
 | **setHeight**  | double                                  | `none`       | Set chiều cao của Building (đơn vị: mét)                                               |
 | **setModel**   | String                                  | `none`       | Set đường dẫn để lấy dữ liệu Model cho Building                                        |
 | **setTexture** | String                                  | `none`       | Set đường dẫn để lấy dữ liệu Texture cho Building                                      |
-| **setCoordinates** | List<[MFLocationCoordinate](/reference/coordinates?id=mflocationcoordinate)> | `none`| Set một mảng tọa độ để tạo một Building hình khối với mặt đáy là mảng vị trí này. Kết hợp với thuộc tính `height` để tạo chiều cao|
+| **setCoordinates** | List<[MFLocationCoordinate](/ipostmap-map/android/v1.0/reference/coordinates.md?id=mflocationcoordinate)> | `none`| Set một mảng tọa độ để tạo một Building hình khối với mặt đáy là mảng vị trí này. Kết hợp với thuộc tính `height` để tạo chiều cao|
 | **setStartDate**   | long                                | `none`       | Set ngày bắt đầu hiển thị Building                                                     |
 | **setEndDate** | long                                    | `none`       | Set ngày kết thúc hiển thị Building                                                    |
 
