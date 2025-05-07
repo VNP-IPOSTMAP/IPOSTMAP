@@ -162,7 +162,7 @@ là đối tượng **{marker: true}**.
 
 Các sự kiện có thể lắng nghe trên marker là: **click, dblClick, longClick, rightClick, hover, mouseOut, drag, dragStart, dragEnd**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 #### i. Ví dụ: để lắng nghe sự kiện **click** cho marker ta thực hiện như sau:
 
