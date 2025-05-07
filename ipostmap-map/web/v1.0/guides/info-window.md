@@ -33,7 +33,7 @@ bản đồ. Giá trị mặc định là **0**
 
 ### 2. Mở một InfoWindow
 
-Khi bạn tạo một **InfoWindow**, cửa sổ đó sẽ không tự động xuất hiện trên bản đồ. Để hiển thị cửa sổ thông tin, bạn phải gọi phương thức **open()** trên **InfoWindow**, chuyển một đối tượng [InfoWindowOpenOptions](/reference/info-window?id=infowindow-open-options) chỉ định các tùy chọn sau:
+Khi bạn tạo một **InfoWindow**, cửa sổ đó sẽ không tự động xuất hiện trên bản đồ. Để hiển thị cửa sổ thông tin, bạn phải gọi phương thức **open()** trên **InfoWindow**, chuyển một đối tượng [InfoWindowOpenOptions](/ipostmap-map/web/v1.0/reference/info-window.md?id=infowindow-open-options) chỉ định các tùy chọn sau:
 
 ```javascript
 interface InfoWindowOpenOptions {
