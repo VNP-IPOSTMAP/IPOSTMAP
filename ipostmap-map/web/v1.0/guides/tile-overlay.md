@@ -1,14 +1,14 @@
 # Tile Overlay
 
-Tile Overlay là một loại overlay cho phép người dùng hiển thị các tile map khác nhau từ nhiều nguồn khác nhau lên trên tile map có sẵn của Map4D
+Tile Overlay là một loại overlay cho phép người dùng hiển thị các tile map khác nhau từ nhiều nguồn khác nhau lên trên tile map có sẵn của IPOSTMAP
 
 <iframe src="./html/tile-overlay.html" style="min-width: 900px;" height="520px"></iframe>
 
 ## Add Tile overlay
 
-Để thêm 1 tile overlay vào map cần tạo mới 1 đối tượng của lớp [TileOverlay](reference/tile-overlay?id=tileoverlay-class) sau đó set `map` cho tile overlay đó.
+Để thêm 1 tile overlay vào map cần tạo mới 1 đối tượng của lớp [TileOverlay](/ipostmap-map/web/v1.0/reference/tile-overlay.md?id=tileoverlay-class) sau đó set `map` cho tile overlay đó.
 
-Hàm khởi tạo của lớp [TileOverlay](reference/tile-overlay?id=tileoverlay-class) nhận vào một đối tượng [TileOverlayOptions](reference/tile-overlay?id=tileoverlayoptions-interface) có các tham số như sau:
+Hàm khởi tạo của lớp [TileOverlay](/ipostmap-map/web/v1.0/reference/tile-overlay.md?id=tileoverlay-class) nhận vào một đối tượng [TileOverlayOptions](/ipostmap-map/web/v1.0/reference/tile-overlay.md?id=tileoverlayoptions-interface) có các tham số như sau:
 
 | No | Property | Type     | Requied | Description                                                                             |
 |:--:|----------|----------|:-------:|-----------------------------------------------------------------------------------------|
