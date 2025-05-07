@@ -1,7 +1,7 @@
 # WebGL Overlay View
 
 Với WebGL Overlay View chúng ta có thể thêm đối tượng vào Map bằng các thư viện đồ họa phổ biến như Three.js. WebGL Overlay View cung cấp quyền truy cập trực tiếp vào cùng một WebGL context
-mà Map4D Map SDK sử dụng để render base map. Việc sử dụng chung WebGL context này cung cấp các lợi ích như vẽ chung các đối tượng 3D từ thư viện với các đối tượng 3D có sẵn trên map với các
+mà IPOSTMAP Map SDK sử dụng để render base map. Việc sử dụng chung WebGL context này cung cấp các lợi ích như vẽ chung các đối tượng 3D từ thư viện với các đối tượng 3D có sẵn trên map với các
 hiệu ứng chiều sâu và che lấp của hình học không gian, và khả năng đồng bộ các đối tượng 2D/3D với base map. Các đối tượng được render WebGL Overlay View cũng có thể được gắn với tạo độ kinh
 độ / vĩ độ, vì vậy chúng sẽ di chuyển khi chúng ta kéo, phóng to, xoay hoặc nghiêng map.
 
@@ -9,8 +9,8 @@ hiệu ứng chiều sâu và che lấp của hình học không gian, và khả
 
 ## Add WebGL Overlay View
 
-Để thêm 1 WebGL Overlay View vào map cần tạo mới 1 đối tượng của lớp [WebGLOverlayView](reference/webgl-overlay?id=webgloverlayview-class) sau đó set `map` cho WebGL Overlay View đó.  
-Hàm khởi tạo của lớp [WebGLOverlayView](reference/webgl-overlay?id=webgloverlayview-class) nhận vào một đối tượng [WebGLOverlayViewOptions](reference/building-overlay?id=buildingoverlayoptions-interface)
+Để thêm 1 WebGL Overlay View vào map cần tạo mới 1 đối tượng của lớp [WebGLOverlayView](/ipostmap-map/web/v1.0/reference/webgl-overlay.md?id=webgloverlayview-class) sau đó set `map` cho WebGL Overlay View đó.  
+Hàm khởi tạo của lớp [WebGLOverlayView](/ipostmap-map/web/v1.0/reference/webgl-overlay.md?id=webgloverlayview-class) nhận vào một đối tượng [WebGLOverlayViewOptions](/ipostmap-map/web/v1.0/reference/building-overlay.md?id=buildingoverlayoptions-interface)
 
 ### Tạo mới WebGL Overlay View
 
@@ -80,7 +80,7 @@ Nếu base map hoặc các đối tượng bị lỗi khi render hoặc không r
 
 Vị trí của một đối tượng trên bản đồ được chỉ định bằng cách cung cấp một bộ data kết hợp giữa vĩ độ và kinh độ, độ cao, góc quay cũng như tỉ lệ scale của đối tượng đó. Tuy nhiên, trong
 đồ họa 3D vị trí đó được chỉ định bởi world space, camera space hoặc screen space. Để dễ dàng chuyển đổi tọa độ bản đồ thành các space được sử dụng phổ biến này, thì chúng ta có hàm
-`calculateProjectMatrixForWebGL(webGLPositionData)` cung cấp bởi đối tượng [Map](/reference/map?id=map-class) với param truyền vào là đối tượng [WebGLPositionData](/reference/webgl-overlay?id=webglpositiondata-interface)
+`calculateProjectMatrixForWebGL(webGLPositionData)` cung cấp bởi đối tượng [Map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class) với param truyền vào là đối tượng [WebGLPositionData](/ipostmap-map/web/v1.0/reference/webgl-overlay.md?id=webglpositiondata-interface)
 và trả về là một Float32Array.
 
 Khi đối tượng overlay không nằm trong camera của base map `Map4D` thì hàm `calculateProjectMatrixForWebGL(webGLPositionData)` sẽ trả về một Float32Array rỗng.
