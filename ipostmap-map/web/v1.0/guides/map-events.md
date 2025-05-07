@@ -1,6 +1,6 @@
 # Map events
 
-Map4D Web SDK cung cấp các sự kiện của map hay tương tác của người dùng giúp cho nhà phát triển có thể lắng nghe và xử lý.
+IPOSTMAP Web SDK cung cấp các sự kiện của map hay tương tác của người dùng giúp cho nhà phát triển có thể lắng nghe và xử lý.
 
 <iframe src="./html/map-events.html" style="min-width: 914px;" height="460px"></iframe>
 
@@ -35,9 +35,9 @@ Map4D Web SDK cung cấp các sự kiện của map hay tương tác của ngư�
 Trong đó:
 - **event**: tên event (xem bảng trên)
 - **func**: hàm sẽ được gọi với tham số ***args*** khi sự kiện được chỉ định xảy ra
-- **options**: tùy chọn, dùng để xác định việc xử lý sự kiện chỉ hoạt động đối với các đối tượng được chỉ định (poi, building, marker, ...). Tham khảo [EventOptions](reference/map.md)
+- **options**: tùy chọn, dùng để xác định việc xử lý sự kiện chỉ hoạt động đối với các đối tượng được chỉ định (poi, building, marker, ...). Tham khảo [EventOptions](/ipostmap-map/web/v1.0/reference/map.md)
 
-Phương thức này trả về một đối tượng [MapsEventListener](/reference/map?id=mapseventlistener-interface)
+Phương thức này trả về một đối tượng [MapsEventListener](/ipostmap-map/web/v1.0/reference/map.md?id=mapseventlistener-interface)
 
 ### Cách đăng ký event chung
 
@@ -61,7 +61,7 @@ let event = map.addListener("event_name",
 ```
 Chú ý:
 - Đối với các event **limitedZoom**, **mouseOver**, **mouseOut**, **idle**, **cameraChanging**, **cameraWillChange**, **tilesLoaded**, **boundsChanged** thì ***options*** là không cần thiết.
-- Event **hover** chỉ hoạt động với [marker](guides/marker.md), [polygon](guides/polygon.md), [polyline](guides/polyline.md), [circle](guides/circle.md), [building](guides/building.md)
+- Event **hover** chỉ hoạt động với [marker](/ipostmap-map/web/v1.0/guides/marker.md), [polygon](/ipostmap-map/web/v1.0/guides/polygon.md), [polyline](/ipostmap-map/web/v1.0/guides/polyline.md), [circle](/ipostmap-map/web/v1.0/guides/circle.md), [building](g/ipostmap-map/web/v1.0/guides/building.md)
 
 
 ### Cách gỡ bỏ một event khi không sử dụng
@@ -74,17 +74,17 @@ event.remove()
 
 | No | Event                                                                                                                                             | args                                                           |
 |:--:|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-|  1 | - cameraWillChange<br>- cameraChanging<br>- idle                                                                                                  | { `camera`: [CameraPosition](reference/map) }                  |
-|  2 | - hover<br>- click *coordinate*<br>- rightClick<br>- dblClick<br>- longClick<br>- dragStart<br>- drag<br>- dragEnd<br>- mouseMove<br>- mouseOut<br>- mouseOver | {<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](reference/coordinates?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](reference/coordinates?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
+|  1 | - cameraWillChange<br>- cameraChanging<br>- idle                                                                                                  | { `camera`: [CameraPosition](/ipostmap-map/web/v1.0/reference/map.md) }                  |
+|  2 | - hover<br>- click *coordinate*<br>- rightClick<br>- dblClick<br>- longClick<br>- dragStart<br>- drag<br>- dragEnd<br>- mouseMove<br>- mouseOut<br>- mouseOver | {<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](/ipostmap-map/web/v1.0/reference/coordinates.md?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
 | 3  | - limitedZoom                                                                                                                                     | { `zoom`: number }                                        |
 | 4  | - tilesLoaded<br>- boundsChanged                                                                                                                  | `none`                                                         |
-| 5  | - click *mappoi*                                                                                                                                  |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`poi`: { `id`: string, `name`: string, `location`: [LatLng](reference/coordinates?id=latlng), `type`: string }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](reference/coordinates?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](reference/coordinates?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
-| 6  | - click *mapbuilding*                                                                                                                             |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`building`: { `id`: string, `name`: string, `location`: [LatLng](reference/coordinates?id=latlng) }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](reference/coordinates?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](reference/coordinates?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
-| 7  | - click *place*                                                                                                                             |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`place`: { `id`: string, `name`: string, `location`: [LatLng](reference/coordinates?id=latlng), `type`: string }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](reference/coordinates?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](reference/coordinates?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
+| 5  | - click *mappoi*                                                                                                                                  |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`poi`: { `id`: string, `name`: string, `location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.mds?id=latlng), `type`: string }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](r/ipostmap-map/web/v1.0/reference/coordinates.md?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
+| 6  | - click *mapbuilding*                                                                                                                             |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`building`: { `id`: string, `name`: string, `location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng) }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](/ipostmap-map/web/v1.0/reference/coordinates.md?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
+| 7  | - click *place*                                                                                                                             |{<br>&nbsp;&nbsp;&nbsp;&nbsp;`place`: { `id`: string, `name`: string, `location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng), `type`: string }<br>&nbsp;&nbsp;&nbsp;&nbsp;`location`: [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng),<br>&nbsp;&nbsp;&nbsp;&nbsp;`pixel`: [Point](/ipostmap-map/web/v1.0/reference/coordinates.md?id=point),<br>&nbsp;&nbsp;&nbsp;&nbsp;`xa`: MouseEvent<br>} |
 
 ### Thay đổi EventOptions ở runtime
 
-Map4dMap JavaScript SDK cho phép thay đổi EventOptions ở runtime.
+IPOSTMAP JavaScript SDK cho phép thay đổi EventOptions ở runtime.
 Ví dụ: ta đăng ký một event nhận sự kiên click của marker, polygon và polyline.
 ```js
 let listener = map.addListener("click", (args) => {
@@ -102,17 +102,17 @@ Sau khi sử dụng hàm trên thì **listener** chỉ nhận sự kiện click 
 
 ### Click Map
 
-Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên map và hiển thị một [marker](guides/marker.md) ở vị trí được click
+Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên map và hiển thị một [marker](/ipostmap-map/web/v1.0/guides/marker.md) ở vị trí được click
 <iframe src="//jsfiddle.net/huydang/uc56hn23/embedded/" style="min-width: 914px;" height="420px"></iframe>
 
 ### Click POI on Map
 
-Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên POI của Map4D và thực hiện hiển thị thông tin của POI được click
+Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên POI của IPOSTMAP và thực hiện hiển thị thông tin của POI được click
 <iframe src="//jsfiddle.net/huydang/2hv1xk9j/embedded/" style="min-width: 914px;" height="600px" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Click place on Map
 
-Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên place của Map4D và thực hiện hiển thị thông tin của place được click
+Ví dụ dưới đây lắng nghe sự kiện click chuột trái trên place của IPOSTMAP và thực hiện hiển thị thông tin của place được click
 <iframe src="//jsfiddle.net/duydung2007/s59fLe8z/embedded/" style="min-width: 914px;" height="600px" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### Usage
