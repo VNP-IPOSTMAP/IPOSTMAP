@@ -128,7 +128,7 @@ là đối tượng **{poi: true}** hoặc/và **{mappoi: true}**.
 
 Các sự kiện có thể lắng nghe trên POI là: **click, dblClick, longClick, rightClick, hover, drag, dragStart, dragEnd**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 Ví dụ để lắng nghe sự kiện **click** cho POI ta thực hiện như sau:
 
