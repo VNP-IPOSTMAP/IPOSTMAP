@@ -1,6 +1,6 @@
 # Measure
 
-Lớp [Measure](/reference/coordinates?id=measure) dùng để tính toán khoảng cách, chu vi và diện tích theo danh sách tọa độ địa lý
+Lớp [Measure](/ipostmap-map/web/v1.0/reference/coordinates.md?id=measure) dùng để tính toán khoảng cách, chu vi và diện tích theo danh sách tọa độ địa lý
 
 ## 1. Khởi tạo đối tượng Measure (path không cần khép kín)
 
