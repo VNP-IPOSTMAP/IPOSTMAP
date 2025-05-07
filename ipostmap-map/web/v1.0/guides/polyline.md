@@ -45,9 +45,9 @@ Nếu bạn chỉ định thuộc tính này bằng **true** thì bạn sẽ đ�
 - **zIndex** (tùy chọn): chỉ định thứ tự chồng nhau giữa các Polyline với nhau hoặc giữa Polyline với các đối tượng khác
 trên bản đồ. Giá trị mặc định là **0**.
 - **elevation** (tùy chọn): chỉ định độ cao của Polyline so với mực nước biển, đơn vị là mét. Giá trị mặc định là **0**
-- **strokePattern** (tùy chọn): chỉ định kiểu vẽ của Polyline ([SolidPattern](/reference/map?id=solidpattern-class),
-[DashPattern](/reference/map?id=dashpattern-class), [DotPattern](/reference/map?id=dotpattern-class) hay
-[IconPattern](/reference/map?id=iconpattern-class)). Giá trị mặc định là `SolidPattern`
+- **strokePattern** (tùy chọn): chỉ định kiểu vẽ của Polyline ([SolidPattern](/ipostmap-map/web/v1.0/reference/map.md?id=solidpattern-class),
+[DashPattern](/ipostmap-map/web/v1.0/reference/map.md?id=dashpattern-class), [DotPattern](/ipostmap-map/web/v1.0/reference/map.md?id=dotpattern-class) hay
+[IconPattern](/ipostmap-map/web/v1.0/reference/map.md?id=iconpattern-class)). Giá trị mặc định là `SolidPattern`
 - **userInteractionEnabled** (tùy chọn): cho phép người dùng có thể tương tác được với Polyline hay không. Giá trị mặc định
 là **true**. Khi không cho phép người dùng tương tác với Polyline thì tất cả các sự kiện liên quan tới Polyline từ phía người dùng
 sẽ không có tác dụng.
@@ -79,8 +79,8 @@ tính năng draggable của Polyline hoặc truyền vào tham số **false** đ
 
 ### 4. Tạo một Polyline sử dụng Pattern
 
-Chúng ta có thể thay đổi kiểu của Polyline bằng cách chỉ định thuộc tính **strokePattern** bằng các đối tượng như [SolidPattern](/reference/map?id=solidpattern-class),
-[DashPattern](/reference/map?id=dashpattern-class), [DotPattern](/reference/map?id=dotpattern-class) hay [IconPattern](/reference/map?id=iconpattern-class) ở
+Chúng ta có thể thay đổi kiểu của Polyline bằng cách chỉ định thuộc tính **strokePattern** bằng các đối tượng như [SolidPattern](/ipostmap-map/web/v1.0/reference/map.md?id=solidpattern-class),
+[DashPattern](/ipostmap-map/web/v1.0/reference/map.md?id=dashpattern-class), [DotPattern](/ipostmap-map/web/v1.0/reference/map.md?id=dotpattern-class) hay [IconPattern](/ipostmap-map/web/v1.0/reference/map.md?id=iconpattern-class) ở
 trong **PolylineOptions** khi tạo **Polyline**.
 
 Ví dụ sau đây vẽ polyline với **Dash Pattern**
@@ -100,7 +100,7 @@ là đối tượng **{polyline: true}**.
 
 Các sự kiện có thể lắng nghe trên Polyline là: **click, dblClick, longClick, rightClick, hover, drag, dragStart, dragEnd**
 
-Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](guides/map-events.md)
+Mô tả các sự kiện này tương tự như mô tả của **Map Event**. Các bạn có thể tham khảo [tại đây](/ipostmap-map/web/v1.0/guides/map-events.md)
 
 Ví dụ để lắng nghe sự kiện **click** cho Polyline ta thực hiện như sau:
 
