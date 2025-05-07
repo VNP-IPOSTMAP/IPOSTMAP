@@ -1,6 +1,6 @@
 # Map Effects
 
-Map4D Web SDK cung cấp các hiệu ứng 3D khi map ở chế độ 3D, bao gồm:
+IPOSTMAP Web SDK cung cấp các hiệu ứng 3D khi map ở chế độ 3D, bao gồm:
 
 - Hiệu ứng mặt nước
 - Hiệu ứng thời tiết
@@ -24,7 +24,7 @@ Example:
 
 ## Hiệu ứng thời tiết
 
-Map4dMap JavaScript SDK cho phép người dùng cài đặt các hiệu ứng theo thời gian thực hoặc thủ công.
+IPOSTMAP JavaScript SDK cho phép người dùng cài đặt các hiệu ứng theo thời gian thực hoặc thủ công.
 
 Các loại thời tiết:
 
@@ -38,8 +38,8 @@ Các loại thời tiết:
 | live   | Weather.Live   | Hiệu ứng thời tiết tự động cập nhật theo thời gian thực bằng hệ thống cảm biến đã có ở một số nơi |
 
 Để cài đặt hiệu ứng thời tiết trên bản đồ, ta gọi phương thức `setWeather` từ đối tượng `Map`  
-Phương thức `setWeather` nhận vào giá trị là tên thời tiết hoặc giá trị enum [Weather](/reference/map?id=weather-enum) và một
-interface [WeatherProvider](reference/map?id=weatherprovider-interface)
+Phương thức `setWeather` nhận vào giá trị là tên thời tiết hoặc giá trị enum [Weather](/ipostmap-map/web/v1.0/reference/map.md?id=weather-enum) và một
+interface [WeatherProvider](/ipostmap-map/web/v1.0/reference/map.md?id=weatherprovider-interface)
 
 ```js
 map.setWeather(weather)
@@ -72,7 +72,7 @@ map.setWeather(map4d.Weather.Live, weatherProvider)
 
 ## Hiệu ứng thời gian trong ngày
 
-Map4dMap JavaScript SDK cho phép thay đổi hiệu ứng theo thời gian trong ngày của bản đồ thành sáng, trưa, chiều, tối...  
+IPOSTMAP JavaScript SDK cho phép thay đổi hiệu ứng theo thời gian trong ngày của bản đồ thành sáng, trưa, chiều, tối...  
 Tùy thuộc thời gian trong ngày mà vị trí đổ bóng sẽ khác nhau và màu sắc của ánh sáng sẽ khác nhau.
 
 Các loại hiệu ứng thời gian:
@@ -88,7 +88,7 @@ Các loại hiệu ứng thời gian:
 
 
 Để cài đặt hiệu ứng thời gian trên bản đồ, ta gọi phương thức `setTimeEffect` từ đối tượng `Map`  
-Phương thức `setTimeEffect` nhận vào giá trị là tên hiệu ứng thời gian hoặc giá trị enum [TimeEffect](/reference/map?id=timeeffect-enum)
+Phương thức `setTimeEffect` nhận vào giá trị là tên hiệu ứng thời gian hoặc giá trị enum [TimeEffect](/ipostmap-map/web/v1.0/reference/map.md?id=timeeffect-enum)
 
 ```js
 map.setTimeEffect(effect)
