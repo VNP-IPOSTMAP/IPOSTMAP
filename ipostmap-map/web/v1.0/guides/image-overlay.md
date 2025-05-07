@@ -6,14 +6,14 @@ Image Overlay là một loại overlay cho phép người dùng hiển thị m�
 
 ## Add Image overlay
 
-Để thêm 1 image overlay vào map cần tạo mới 1 đối tượng của lớp [ImageOverlay](reference/image-overlay?id=imageoverlay-class) sau đó set `map` cho image overlay đó.
+Để thêm 1 image overlay vào map cần tạo mới 1 đối tượng của lớp [ImageOverlay](/ipostmap-map/web/v1.0/reference/image-overlay.md?id=imageoverlay-class) sau đó set `map` cho image overlay đó.
 
-Hàm khởi tạo của lớp [ImageOverlay](reference/image-overlay?id=imageoverlay-class) nhận vào một đối tượng [ImageOverlayOptions](reference/image-overlay?id=imageoverlayoptions-interface) có các tham số như sau:
+Hàm khởi tạo của lớp [ImageOverlay](/ipostmap-map/web/v1.0/reference/image-overlay.md?id=imageoverlay-class) nhận vào một đối tượng [ImageOverlayOptions](/ipostmap-map/web/v1.0/reference/image-overlay.md?id=imageoverlayoptions-interface) có các tham số như sau:
 
 | No | Property | Type     | Requied | Description                                                                             |
 |:--:|----------|----------|:-------:|-----------------------------------------------------------------------------------------|
 |  1 | url      | string   |   YES   | Đường dẫn url của image                                                                 |
-|  2 | bounds   | [ILatLngBounds](/reference/coordinates?id=ilatlngbounds)|YES| Vùng hiển thị của Image Overlay                |
+|  2 | bounds   | [ILatLngBounds](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlngbounds)|YES| Vùng hiển thị của Image Overlay                |
 |  3 | visible  | boolean  |    NO   | Nếu là `true` thì Image Overlay sẽ được hiển thị                                        |
 |  4 | zIndex   | number   |    NO   | Thứ tự hiển thị giữa các Image Overlay với nhau. Tất cả các Image overlay được hiển thị đè lên trên bản đồ và các điểm Place của bản đồ|
 |  5 | opacity  | number   |    NO   | Độ trong suốt của Image Overlay. Có giá trị từ 0 đến 1                                  |
