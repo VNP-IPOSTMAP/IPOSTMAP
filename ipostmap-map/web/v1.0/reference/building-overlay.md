@@ -13,13 +13,13 @@ BuildingOverlay(options)
 ```
 
 - Parameters:
-  - options: [BuildingOverlayOptions](/reference/building-overlay?id=buildingoverlayoptions-interface) *required*
+  - options: [BuildingOverlayOptions](/ipostmap-map/web/v1.0/reference/building-overlay.md?id=buildingoverlayoptions-interface) *required*
 
 **Methods**
 
 | Name           | Parameters                              | Return Value | Description                                                                                    |
 |----------------|-----------------------------------------|--------------|------------------------------------------------------------------------------------------------|
-| **setMap**     | map: [Map](/reference/map?id=map-class) | `none`       | Hiển thị building overlay lên map, nếu set map là null thì building overlay sẽ bị xóa khỏi map |
+| **setMap**     | map: [Map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class) | `none`       | Hiển thị building overlay lên map, nếu set map là null thì building overlay sẽ bị xóa khỏi map |
 | **setVisible** | visibility: boolean                     | `none`       | Ẩn/hiện building overlay trên map                                                              |
 | **isVisible**  | `none`                                  | boolean      | Get trạng thái ẩn/hiện của overlay                                                             |
 | **getPrefixId**| `none`                                  | string       | Get prefixId                                                                                   |
@@ -51,10 +51,10 @@ BuildingOverlay(options)
 |----------------------------|------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | **id** *required*          | string                                         | ID của building                                                                                                                              |
 | **name** *required*        | string                                         | Tên tuilding                                                                                                                                 |
-| **position** *required*    | [ILatLng](/reference/coordinates?id=ilatlng)   | Vị trí hiển thị building trên bản đồ                                                                                                         |
+| **position** *required*    | [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)   | Vị trí hiển thị building trên bản đồ                                                                                                         |
 | **model** *optional*       | string                                         | Đường dẫn URL để lấy dữ liệu model cho building                                                                                              |
 | **texture** *optional*     | string                                         | Đường dẫn URL để lấy dữ liệu texture cho building                                                                                            |
-| **coordinates** *optional* | [ILatLng[]](/reference/coordinates?id=ilatlng) | Một mảng vị trí `ILatLng` để tạo một Building hình khối với mặt đáy của hình khối là mảng vị trí này. Kết hợp với `height` để tạo chiều cao  |
+| **coordinates** *optional* | [ILatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) | Một mảng vị trí `ILatLng` để tạo một Building hình khối với mặt đáy của hình khối là mảng vị trí này. Kết hợp với `height` để tạo chiều cao  |
 | **height** *optional*      | number                                         | Chiều cao của building (đơn vị: mét)                                                                                                         |
 | **scale** *optional*       | number                                         | Tỉ lệ hiển thị của building so với kích thước thực tế                                                                                        |
 | **bearing** *optional*     | number                                         | Góc quay của building khi được vẽ ra trên bản đồ (đơn vị: độ)                                                                                |
