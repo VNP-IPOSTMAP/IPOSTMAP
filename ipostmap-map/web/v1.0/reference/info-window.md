@@ -13,18 +13,18 @@ InfoWindow(options)
 ```
 
 - Parameters:
-  - options: [InfoWindowOptions](/reference/info-window?id=infowindow-options)
+  - options: [InfoWindowOptions](/ipostmap-map/web/v1.0/reference/info-window.md?id=infowindow-options)
 
 **Methods**
 
 | Name                         | Parameters                              | Return Value | Description                                                                             |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **open**                     | [IInfoWindowOpenOptions](/reference/info-window?id=iinfowindowopenoptions), [anchor](/reference/marker?id=marker-class)      | `none`       | Thêm InfoWindow vào map                                                                         |
+| **open**                     | [IInfoWindowOpenOptions](/ipostmap-map/web/v1.0/reference/info-window.md?id=iinfowindowopenoptions), [anchor](/reference/marker?id=marker-class)      | `none`       | Thêm InfoWindow vào map                                                                         |
 | **close**                    | `none`                                  | `none`       | Xóa InfoWindow khỏi map                                                                         |
-| **setOptions**               | [InfoWindowOptions](/reference/info-window?id=infowindow-options)             | `none`       | Set InfoWindowOptions InfoWindow                                                                         |
+| **setOptions**               | [InfoWindowOptions](/ipostmap-map/web/v1.0/reference/info-window.md?id=infowindow-options)             | `none`       | Set InfoWindowOptions InfoWindow                                                                         |
 | **setContent**               | string `or` Node                        | `none`       | Set nội dung content cho InfoWindow
 | **getContent**               | `none`                                  | string       | Get nội dung content của InfoWindow                                                                  |
-| **setPosition**              | [ILatLng](/reference/coordinates?id=ilatlng)| `none`    | Set vị trí cho InfoWindow                                                                  |
+| **setPosition**              | [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)| `none`    | Set vị trí cho InfoWindow                                                                  |
 | **getPosition**              | `none`                                  | ILatLng      | Get vị trí của InfoWindow                                                                  |
 | **setZIndex**                | `number`                                  | `none`       | Set giá trị zIndex cho InfoWindow                                                                  |
 | **getZIndex**                | `none`                                  | number       | Get giá trị zIndex hiện tại của InfoWindow                                                                  |
@@ -38,7 +38,7 @@ InfoWindow(options)
 
 | Name                       | Type                | Description                                                                                                                                                           |
 |----------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **position** *optional*    |[ILatLng](/reference/coordinates?id=ilatlng)| chỉ định một **ILatLng** để xác định vị trí ban đầu của InfoWindow.                                                                                |
+| **position** *optional*    |[ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)| chỉ định một **ILatLng** để xác định vị trí ban đầu của InfoWindow.                                                                                |
 | **ariaLabel** *optional*    | string              | ariaLabel sẽ gán cho InfoWindow.                                                                                         |
 | **content** *optional*      | string `or` Node    | nội dung để hiển thị trong InfoWindow. Đó có thể là một phần tử HTML, một chuỗi văn bản thuần túy hoặc một chuỗi chứa HTML.                                                    |
 | **maxWidth** *optional*     | number              | chiều rộng tối đa của InfoWindow, bất kể chiều rộng của nội dung. Giá trị này chỉ được xem xét nếu được đặt trước khi gọi open()                                                                             |
@@ -62,5 +62,5 @@ type IInfoWindowOpenOptions = InfoWindowOpenOptions | Map
 
 | Name                       | Type                | Description                                                                                                                                                           |
 |----------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **anchor** *optional*    | [Marker](/reference/marker?id=marker-class)           | chỉ định một [ILatLng](/reference/coordinates?id=ilatlng) để xác định vị trí ban đầu của InfoWindow.                                                                                |
+| **anchor** *optional*    | [Marker](/ipostmap-map/web/v1.0/reference/marker.md?id=marker-class)           | chỉ định một [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) để xác định vị trí ban đầu của InfoWindow.                                                                                |
 | **map** *optional*        | [Map](/reference/map?id=map-class)              | ariaLabel sẽ gán cho InfoWindow.          |
