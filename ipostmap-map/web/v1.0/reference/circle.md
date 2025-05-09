@@ -13,16 +13,16 @@ Circle(options)
 ```
 
 - Parameters:
-  - options: [CircleOptions](/reference/circle?id=circle-options) *required*
+  - options: [CircleOptions](/ipostmap-map/web/v1.0/reference/circle.md?id=circle-options) *required*
 
 **Methods**
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setMap**                   | [Map](/reference/map?id=map-class)      | `none`       | Thêm circle vào map, nếu set map là **null** thì circle sẽ bị xóa khỏi map             |
+| **setMap**                   | [Map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class)      | `none`       | Thêm circle vào map, nếu set map là **null** thì circle sẽ bị xóa khỏi map             |
 | **getMap**                   | `none`                                  | Map          | Lấy đối tượng map mà circle được thêm vào                                              |
-| **setCenter**                | [ILatLng](/reference/coordinates?id=ilatlng)| `none`   | Set tạo độ tâm cho circle                                                              |
-| **getCenter**                | `none` |  [LatLng](/reference/coordinates?id=latlng)   | Get tọa độ tâm của circle                                                              |
+| **setCenter**                | [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)| `none`   | Set tạo độ tâm cho circle                                                              |
+| **getCenter**                | `none` |  [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng)   | Get tọa độ tâm của circle                                                              |
 | **setRadius**                | number                                  | `none`       | Set bán kính cho circle theo đơn vị là mét                                             |
 | **getRadius**                | `none`                                  | number       | Get bán kính của circle theo đơn vị là mét                                             |
 | **setFillColor**             | string                                  | `none`       | Set màu cho circle theo mã HEX (ví dụ: **"#0F4DA9"**)                                  |
@@ -57,7 +57,7 @@ Circle(options)
 
 | Name                       | Type                | Description                                                                                                                                                           |
 |----------------------------|:-------------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **center** *required*      |[ILatLng](/reference/coordinates?id=ilatlng)| một điểm tọa độ **ILatLng** để xác định tâm của Circle.                                                                                        |
+| **center** *required*      |[ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)| một điểm tọa độ **ILatLng** để xác định tâm của Circle.                                                                                        |
 | **radius** *required*      | number              | chỉ định bán kính của Circle theo đơn vị **mét**.                                                                                                                     |
 | **fillColor** *optional*   |string               | chỉ định màu sắc của Circle theo mã HEX (ví dụ **"#FF0000"**). Giá trị mặc định là **"#0000FF"**.                                                                     |
 | **fillOpacity** *optional* |number               | chỉ định độ trong suốt màu của Circle, khoảng giá trị của nó nằm trong khoảng từ 0.0 đến 1.0. Giá trị mặc định là **1**.                                              |
