@@ -13,25 +13,25 @@ Marker(options)
 ```
 
 - Parameters:
-  - options: [MarkerOptions](/reference/marker?id=marker-options) *required*
+  - options: [MarkerOptions](/ipostmap-map/web/v1.0/reference/marker.md?id=marker-options) *required*
 
 **Methods**
 
 | Name                         | Parameters                              | Return Value | Description                                                                            |
 |------------------------------|:---------------------------------------:|:------------:|----------------------------------------------------------------------------------------|
-| **setMap**                   | [Map](/reference/map?id=map-class)      | `none`       | Thêm marker vào map, nếu set map là **null** thì marker sẽ bị xóa khỏi map             |
+| **setMap**                   | [Map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class)      | `none`       | Thêm marker vào map, nếu set map là **null** thì marker sẽ bị xóa khỏi map             |
 | **getMap**                   | `none`                                  | Map          | Lấy đối tượng map mà marker được thêm vào                                              |
 | **setVisible**               | visibility: boolean                     | `none`       | Ẩn/hiện marker trên map                                                                |
 | **isVisible**                | `none`                                  | boolean      | Get trạng thái ẩn/hiện của marker                                                      |
 | **setZIndex**                | zIndex: number                          | `none`       | Set giá trị zIndex cho Marker                                                          |
 | **getZIndex**                | `none`                                  | number       | Get giá trị zIndex hiện tại của Marker                                                 |
-| **setPosition**              | [ILatLng](/reference/coordinates?id=ilatlng)| `none`    | Set vị trí cho marker                                                                 |
+| **setPosition**              | [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng)| `none`    | Set vị trí cho marker                                                                 |
 | **getPosition**              | `none`                                  | ILatLng      | Get vị trí của marker                                                                  |
-| **setAnchor**                | [IPoint](/reference/coordinates?id=ipoint)| `none`      | Set điểm neo cho Marker                                                               |
+| **setAnchor**                | [IPoint](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ipoint)| `none`      | Set điểm neo cho Marker                                                               |
 | **getAnchor**                | `none`                                  | IPoint       | Get điểm neo đã set cho Marker                                                         |
-| **setLabelAnchor**           | [IPoint](/reference/coordinates?id=ipoint)| `none`      | Set điểm neo cho chữ vẽ trong marker                                                  |
+| **setLabelAnchor**           | [IPoint](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ipoint)| `none`      | Set điểm neo cho chữ vẽ trong marker                                                  |
 | **getLabelAnchor**           | `none`                                  | IPoint       | Get điểm neo của chữ trong marker đã set                                               |
-| **setIcon**                  | [Icon](/reference/marker?id=icon)`or`string|`none`| Set một hình ảnh cho marker để thay cho hình ảnh mặc định                                   |
+| **setIcon**                  | [Icon](/ipostmap-map/web/v1.0/reference/marker.md?id=icon)`or`string|`none`| Set một hình ảnh cho marker để thay cho hình ảnh mặc định                                   |
 | **getIcon**                  | `none`                                  |Icon`or`string| Get hình ảnh đã set cho marker trước đó                                                |
 | **setElevation**             | number                                  | `none`       | Set độ cao của marker theo đơn vị là mét                                               |
 | **getElevation**             | `none`                                  | number       | Get độ cao của marker                                                                  |
@@ -43,7 +43,7 @@ Marker(options)
 | **setTitle**                 | string                                  | `none`       | Set tiêu của marker                                                                    |
 | **getSnippet**               | `none`                                  | string       | Get mô tả của marker                                                                   |
 | **setSnippet**               | string                                  | `none`       | Set mô tả của marker                                                                   |
-| **setWindowAnchor**          | [IPoint](/reference/coordinates?id=ipoint)| `none`      | Set điểm neo cho bảng thông tin marker                                                |
+| **setWindowAnchor**          | [IPoint](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ipoint)| `none`      | Set điểm neo cho bảng thông tin marker                                                |
 | **setInfoWindow**            | string `or` Node                        | `none`       | Set kiểu dáng bảng thông tin thay cho bảng thông tin mặc định                          |
 | **setInfoContents**          | string `or` Node                        | `none`       | Set nội dung cho bảng thông tin                                                        |
 | **isInfoWindowShown**        | `none`                                  | boolean      | Kiểm tra xem bảng thông tin có được hiện trên bản đồ hay không                         |
@@ -51,13 +51,13 @@ Marker(options)
 | **isDraggable**              | `none`                                  | boolean      | Kiểm tra xem marker có thể kéo trên bản đồ hay không                                   |
 | **getUserData**              | `none`                                  | any          | Set dữ liệu riêng mà người dùng muốn cho marker                                        |
 | **setUserData**              | any                                     | `none`       | Get dữ liệu riêng mà người dùng đã set cho marker                                      |
-| **setLabel**                 | string`or`[MarkerLabel](/reference/marker?id=marker-label)| `none`| Set một label để vẽ trong marker                                            |
+| **setLabel**                 | string`or`[MarkerLabel](/ipostmap-map/web/v1.0/reference/marker.md?id=marker-label)| `none`| Set một label để vẽ trong marker                                            |
 | **setIconView**              | string `or` Node                        | `none`       | Thay thế hình ảnh mặc định của marker bằng một HTML view                               |
 | **getIconView**              | `none`                                  |string`or`Node| Get thông tin hình ảnh HTML của marker                                                 |
 | **isClickable**              | `none`                                  | boolean      | Kiểm tra marker có thể tương tác bởi người dùng hay không                              |
 | **setClickable**             | boolean                                 | `none`       | Cho phép marker có thể tương tác bởi người dùng hay không                              |
-| **getAnimation**             | `none`                                  | [Animation](/reference/marker?id=animation) | Get giá trị hoạt ảnh của marker                         |
-| **setAnimation**             | [Animation](/reference/marker?id=animation) or null or string | `none`          | Set hoạt ảnh cho marker, set `null` để dừng hoạt ảnh hiện tại |
+| **getAnimation**             | `none`                                  | [Animation](/ipostmap-map/web/v1.0/reference/marker.md?id=animation) | Get giá trị hoạt ảnh của marker                         |
+| **setAnimation**             | [Animation](/ipostmap-map/web/v1.0/reference/marker.md?id=animation) or null or string | `none`          | Set hoạt ảnh cho marker, set `null` để dừng hoạt ảnh hiện tại |
 
 ## Marker Options
 
