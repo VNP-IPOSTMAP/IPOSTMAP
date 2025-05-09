@@ -6,7 +6,7 @@
 
 **Constructor** 
 
-Tạo MarkerClusterer với mảng [Marker](/reference/marker?id=marker-class) và các options được chỉ định
+Tạo MarkerClusterer với mảng [Marker](/ipostmap-map/web/v1.0/reference/marker.md?id=marker-class) và các options được chỉ định
 
 ```js
 MarkerClusterer(Marker[], options)
@@ -14,13 +14,13 @@ MarkerClusterer(Marker[], options)
 
 - Parameters:
   - Marker[]: Mảng các marker cần đưa vào MarkerClusterer.
-  - options: [MarkerClusterOptions](/reference/marker-cluster?id=marker-clusterer-options) *required*
+  - options: [MarkerClusterOptions](/ipostmap-map/web/v1.0/reference/marker-cluster.md?id=marker-clusterer-options) *required*
 
 **Methods**
 
 | Name                         | Parameters                              | Return Value | Description                                                                                      |
 |------------------------------|:---------------------------------------:|:------------:|--------------------------------------------------------------------------------------------------|
-| **setMap**                   | [Map](/reference/map?id=map-class)      | `none`       | Thêm marker cluster vào map, nếu set map là **null** thì marker cluster sẽ bị xóa khỏi map       |
+| **setMap**                   | [Map](/ipostmap-map/web/v1.0/reference/map.md?id=map-class)      | `none`       | Thêm marker cluster vào map, nếu set map là **null** thì marker cluster sẽ bị xóa khỏi map       |
 | **setZoomOnClick**           | boolean                                 | `none`       | Set giá trị cho phép phóng to bản đồ khi người dùng click để hiển tất cả các Marker trong nó     |
 
 ## Marker Clusterer Options
