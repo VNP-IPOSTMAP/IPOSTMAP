@@ -14,7 +14,7 @@
 | addGeoJson  | geoJson: string                                                                        | [Data.Feature](#feature-class)                                     | Thêm 1 hoặc nhiều feature vào Data Layer bằng geoJson |
 | remove      | feature: [Data.Feature](#feature-class)                                                | `none`                                                             | Xóa feature khỏi Data Layer                           |
 | clear       | `none`                                                                                 | `none`                                                             | Xóa tất cả feature khỏi Data Layer                    |
-| addListener | event: string \| [MapEvent](/reference/map?id=mapevent-enum)<br>func: Function         | [MapsEventListener](/reference/map?id=mapseventlistener-interface) | Thêm sự kiên cho Data Layer                           |
+| addListener | event: string \| [MapEvent](/ipostmap-map/web/v1.0/reference/map.md?id=mapevent-enum)<br>func: Function         | [MapsEventListener](/ipostmap-map/web/v1.0/reference/map.md?id=mapseventlistener-interface) | Thêm sự kiên cho Data Layer                           |
 | setMinZoom  | minZoom: number                                                                        | `none`                                                             | Set mức zoom nhỏ nhất để hiển thị Data Layer          |
 | getMinZoom  | `none`                                                                                 | number                                                             | Get mức zoom nhỏ nhất có thể hiển thị Data Layer      |
 | setMaxZoom  | maxZoom: number                                                                        | `none`                                                             | Set mức zoom lớn nhất để hiển thị Data Layer          |
@@ -96,7 +96,7 @@ Data.Point(coordinate)
 ```
 
 - Parameters:
-  - coordinate: [ILatLng](/reference/coordinates?id=ilatlng) *required*
+  - coordinate: [ILatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) *required*
 
 **Methods**
 
@@ -104,7 +104,7 @@ Data.Point(coordinate)
 |---------------|------------------------------------|--------------------------------------------------|---------------------------------------------------------------|
 | getType       | `none`                             | string                                           | "Point"                                                       |
 | forEachLatLng | callback: function(LatLng) => void | `none`                                           | Gọi xử lý `callback` với tham số là `coordinate` của Point    |
-| get           | `none`                             | [LatLng](/reference/coordinates?id=latlng)       | Get `coordinate` của Point                                    |
+| get           | `none`                             | [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng)       | Get `coordinate` của Point                                    |
 
 <!--------------------------------------------------------------------- MultiPoint ----------------------------------------------------------------------------------->
 ---
@@ -122,7 +122,7 @@ Data.MultiPoint(coordinates)
 ```
 
 - Parameters:
-  - coordinates: [ILatLng[]](/reference/coordinates?id=ilatlng) *required*
+  - coordinates: [ILatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) *required*
 
 **Methods**
 
@@ -130,8 +130,8 @@ Data.MultiPoint(coordinates)
 |---------------|------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|
 | getType       | `none`                             | string                                       | "MultiPoint"                                                                   |
 | forEachLatLng | callback: function(LatLng) => void | `none`                                       | Duyệt qua các LatLng của mỗi element trong MultiPoint và gọi xử lý `callback`  |
-| getAt         | n: number                          | [LatLng](/reference/coordinates?id=latlng)   | Get LatLng ở vị trí `n`                                                        |
-| getArray      | `none`                             | [LatLng[]](/reference/coordinates?id=latlng) | Get coordinates                                                                |
+| getAt         | n: number                          | [LatLng](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng)   | Get LatLng ở vị trí `n`                                                        |
+| getArray      | `none`                             | [LatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=latlng) | Get coordinates                                                                |
 | getLength     | `none`                             | number                                       | Get tổng số coordinates hiện có của đối tượng MultiPoint                       |
 
 <!--------------------------------------------------------------------- LineString ----------------------------------------------------------------------------------->
@@ -150,7 +150,7 @@ Data.LineString(elements)
 ```
 
 - Parameters:
-  - elements: [ILatLng[]](/reference/coordinates?id=ilatlng) *required*
+  - elements: [ILatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) *required*
 
 **Methods**
 
@@ -204,13 +204,13 @@ Data.LinearRing(elements)
 ```
 
 - Parameters:
-  - elements: [ILatLng[]](/reference/coordinates?id=ilatlng) *required*
+  - elements: [ILatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) *required*
 
 **Properties**
 
 | Name         | Type                                           | Description                                                          |
 |--------------|------------------------------------------------|----------------------------------------------------------------------|
-| **elements** | [ILatLng[]](/reference/coordinates?id=ilatlng) |                                                                      |
+| **elements** | [ILatLng[]](/ipostmap-map/web/v1.0/reference/coordinates.md?id=ilatlng) |                                                                      |
 
 
 <!--------------------------------------------------------------------- Polygon -------------------------------------------------------------------------------------->
