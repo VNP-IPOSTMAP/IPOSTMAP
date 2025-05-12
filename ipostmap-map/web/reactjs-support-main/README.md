@@ -1,4 +1,4 @@
-# Map4dMap ReactJS Compoenent
+# IPOSTMAP ReactJS Component
 ---
 ```javascript
 <Map4dMap
