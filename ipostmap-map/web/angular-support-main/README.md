@@ -1,6 +1,6 @@
-# Map4d Map AngularJS Support
+# IPOSTMAP AngularJS Support
 
-[Map4D Map Javascript SDKs Documents⚡️](https://docs.map4d.vn/map4d-map/web/)
+[IPOSTMAP Javascript SDKs Documents⚡️]
 
 ## How to use
 1. Copy `map4d-map.component.ts` to your projects
